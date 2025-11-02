@@ -31,7 +31,7 @@ elif b >= a and b >= c:
 else:
     print(c, "is the largest")"""
 
-    # Find the largest number among three
+"""    # Find the largest number among three
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
@@ -41,4 +41,16 @@ if a >= b and a >= c:
 elif b >= a and b >= c:
     print("Largest number is:", b)
 else:
-    print("Largest number is:", c)
+    print("Largest number is:", c)"""
+
+# Calculate electricity bill based on units
+units = int(input("Enter electricity units consumed: "))
+
+if units <= 100:
+    bill = units * 1
+elif units <= 200:
+    bill = (100 * 1) + (units - 100) * 2
+else:
+    bill = (100 * 1) + (100 * 2) + (units - 200) * 3
+
+print("Total Electricity Bill: ₹", bill)
