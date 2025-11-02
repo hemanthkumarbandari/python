@@ -69,7 +69,6 @@ print("x <<= 2 →", x)
 
 x = 5
 y = 3
-
 print(x == y)
 print(x != y)
 print(x > y)
