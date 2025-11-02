@@ -16,7 +16,7 @@ elif n < 0:
 else:
     print("Number is Zero") """
 
-# Check voting eligibility
+"""# Check voting eligibility
 age = int(input("Enter your age: "))
 
 if age >= 18:
@@ -29,4 +29,16 @@ if a >= b and a >= c:
 elif b >= a and b >= c:
     print(b, "is the largest")
 else:
-    print(c, "is the largest")
+    print(c, "is the largest")"""
+
+    # Find the largest number among three
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Largest number is:", a)
+elif b >= a and b >= c:
+    print("Largest number is:", b)
+else:
+    print("Largest number is:", c)
