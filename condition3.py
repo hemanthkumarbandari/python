@@ -27,7 +27,7 @@ elif marks >= 60:
 else:
     print("Grade: F")"""
 
-# Simple calculator using conditionals
+"""# Simple calculator using conditionals
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 op = input("Enter operator (+, -, *, /, %): ")
@@ -43,4 +43,18 @@ elif op == '/':
 elif op == '%':
     print("Result =", a % b)
 else:
-    print("Invalid operator")
+    print("Invalid operator")"""
+
+# Calculate electricity bill
+units = int(input("Enter total units used: "))
+
+if units <= 100:
+    bill = units * 1
+elif units <= 200:
+    bill = 100 * 1 + (units - 100) * 2
+elif units <= 300:
+    bill = 100 * 1 + 100 * 2 + (units - 200) * 3
+else:
+    bill = 100 * 1 + 100 * 2 + 100 * 3 + (units - 300) * 5
+
+print("Total bill = ₹", bill)
