@@ -12,7 +12,8 @@ if a + b > c and a + c > b and b + c > a:
         print("Scalene Triangle")
 else:
     print("Not a valid triangle")"""
-# Calculate grade based on marks
+
+"""# Calculate grade based on marks
 marks = int(input("Enter marks (0-100): "))
 
 if marks >= 90:
@@ -24,4 +25,22 @@ elif marks >= 70:
 elif marks >= 60:
     print("Grade: D")
 else:
-    print("Grade: F")
+    print("Grade: F")"""
+
+# Simple calculator using conditionals
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /, %): ")
+
+if op == '+':
+    print("Result =", a + b)
+elif op == '-':
+    print("Result =", a - b)
+elif op == '*':
+    print("Result =", a * b)
+elif op == '/':
+    print("Result =", a / b)
+elif op == '%':
+    print("Result =", a % b)
+else:
+    print("Invalid operator")
