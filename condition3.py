@@ -45,7 +45,7 @@ elif op == '%':
 else:
     print("Invalid operator")"""
 
-# Calculate electricity bill
+"""# Calculate electricity bill
 units = int(input("Enter total units used: "))
 
 if units <= 100:
@@ -57,4 +57,24 @@ elif units <= 300:
 else:
     bill = 100 * 1 + 100 * 2 + 100 * 3 + (units - 300) * 5
 
-print("Total bill = ₹", bill)
+print("Total bill = ₹", bill)"""
+
+# Print day name based on number
+num = int(input("Enter a number (1-7): "))
+
+if num == 1:
+    print("Monday")
+elif num == 2:
+    print("Tuesday")
+elif num == 3:
+    print("Wednesday")
+elif num == 4:
+    print("Thursday")
+elif num == 5:
+    print("Friday")
+elif num == 6:
+    print("Saturday")
+elif num == 7:
+    print("Sunday")
+else:
+    print("Invalid number")
