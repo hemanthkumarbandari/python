@@ -20,7 +20,7 @@ elif avg >= 40:
 else:
     print("Grade: F (Fail)")"""
 
-a = float(input("Enter first number: "))
+"""a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 op = input("Enter operator (+, -, *, /, %): ")
 
@@ -41,4 +41,19 @@ elif op == '%':
     else:
         print("Error: Division by zero not allowed")
 else:
-    print("Invalid Operator")
+    print("Invalid Operator")"""
+
+age = int(input("Enter your age: "))
+citizen = input("Are you an Indian citizen? (yes/no): ").lower()
+has_license = input("Do you have a valid driving license? (yes/no): ").lower()
+
+if age >= 18:
+    if citizen == "yes":
+        if has_license == "yes":
+            print("✅ You are eligible to drive in India.")
+        else:
+            print("❌ You need a valid driving license to drive.")
+    else:
+        print("❌ Only Indian citizens are eligible for this check.")
+else:
+    print("❌ You are underage and cannot drive.")
