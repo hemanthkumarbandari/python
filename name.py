@@ -7,12 +7,15 @@ if num % 2 == 0:
 else:
     print("Odd number")"""
 
-sum1 = 100 + 50
-sum2 = sum1 + 250
-sum3 = sum2 + sum2
+x = 15
+y = 4
 
-print(sum1)
-print(sum2)
-print(sum3)
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y)
+print(x // y)
 
 
