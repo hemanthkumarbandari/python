@@ -7,7 +7,7 @@ if num % 2 == 0:
 else:
     print("Odd number")"""
 
-x = 15
+x = 10
 y = 4
 
 print(x - y)
