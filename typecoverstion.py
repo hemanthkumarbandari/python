@@ -1,4 +1,4 @@
-"""
+a = """
 x = 10
 y = 11.2
 z = 10
@@ -15,5 +15,8 @@ print (type(a))
 print (type(b))
 print (type(c))
 """
+"""
 import random
 print (random.randrange(0,10))
+"""
+print (a)
