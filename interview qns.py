@@ -9,6 +9,9 @@ else:
     print("invalid")
 """
 # divisible by 3 and 5
+
 num = int(input("Enter a Number;"))
 if num % 3 == 0 and num % 5 == 0:
     print("divisible1")
+elif num %3==0:
+    print("only by 3")
