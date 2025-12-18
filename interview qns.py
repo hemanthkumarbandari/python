@@ -20,5 +20,5 @@ elif num %3==0:
 num = int(input("Enter a number;"))
 if num > 9 and num < 100:
     print("two digit")
-elif num > 99 and num < 1000:
+elif num > 1000 and num < 99:
     print ("3")
