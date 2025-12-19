@@ -35,3 +35,11 @@ final_price = amount - discount
 
 print("Discount:", discount)
 print("Final Price:", final_price)
+temp = float(input("Enter Temperature: "))
+
+if temp > 30:
+    print("Hot")
+elif temp >= 20:
+    print("Warm")
+else:
+    print("Cold")
