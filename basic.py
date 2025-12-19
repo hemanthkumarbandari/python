@@ -22,3 +22,16 @@ else:
     balance -= amount
     print("Withdraw successful")
     print("Remaining Balance:", balance)
+amount = float(input("Enter purchase amount: "))
+
+if amount >= 5000:
+    discount = amount * 0.20
+elif amount >= 2000:
+    discount = amount * 0.10
+else:
+    discount = 0
+
+final_price = amount - discount
+
+print("Discount:", discount)
+print("Final Price:", final_price)
