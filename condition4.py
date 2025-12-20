@@ -40,3 +40,11 @@ if a + b > c and a + c > b and b + c > a:
 else:
     print("Not a valid triangle")
 """
+num = abs(int(input("Enter a number: ")))
+
+if num < 10:
+    print("Single-digit")
+elif num < 100:
+    print("Double-digit")
+else:
+    print("More than two digits")
