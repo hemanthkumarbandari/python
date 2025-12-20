@@ -25,6 +25,7 @@ elif sell < cost:
 else:
     print("No Profit No Loss")"""
 # Check type of triangle
+"""
 a = int(input("Enter side a: "))
 b = int(input("Enter side b: "))
 c = int(input("Enter side c: "))
@@ -38,3 +39,4 @@ if a + b > c and a + c > b and b + c > a:
         print("Scalene Triangle")
 else:
     print("Not a valid triangle")
+"""
