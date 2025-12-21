@@ -40,6 +40,7 @@ if a + b > c and a + c > b and b + c > a:
 else:
     print("Not a valid triangle")
 """
+"""
 num = abs(int(input("Enter a number: ")))
 
 if num < 10:
@@ -58,3 +59,4 @@ elif '0' <= ch <= '9':
     print("Digit")
 else:
     print("Special character")
+"""
