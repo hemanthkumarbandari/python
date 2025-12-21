@@ -68,6 +68,7 @@ if num % 5 == 0 or num % 7 == 0:
 else:
     print("Not a multiple of 5 or 7")
 """
+"""
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 op = input("Enter operator (+, -, *, /): ")
@@ -85,3 +86,4 @@ elif op == '/':
         print("Division by zero not allowed")
 else:
     print("Invalid operator")
+"""
