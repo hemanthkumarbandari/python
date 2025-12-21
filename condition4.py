@@ -60,9 +60,28 @@ elif '0' <= ch <= '9':
 else:
     print("Special character")
 """
+"""
 num = int(input("Enter a number: "))
 
 if num % 5 == 0 or num % 7 == 0:
     print("Multiple of 5 or 7")
 else:
     print("Not a multiple of 5 or 7")
+"""
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    if b != 0:
+        print(a / b)
+    else:
+        print("Division by zero not allowed")
+else:
+    print("Invalid operator")
