@@ -60,3 +60,9 @@ elif '0' <= ch <= '9':
 else:
     print("Special character")
 """
+num = int(input("Enter a number: "))
+
+if num % 5 == 0 or num % 7 == 0:
+    print("Multiple of 5 or 7")
+else:
+    print("Not a multiple of 5 or 7")
