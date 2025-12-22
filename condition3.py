@@ -60,6 +60,7 @@ else:
 print("Total bill = ₹", bill)"""
 
 # Print day name based on number
+"""
 num = int(input("Enter a number (1-7): "))
 
 if num == 1:
@@ -78,3 +79,5 @@ elif num == 7:
     print("Sunday")
 else:
     print("Invalid number")
+"""
+
