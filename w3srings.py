@@ -1,2 +1,6 @@
 a = ("Hemanth Kumar")
 print (a[3:9])
+
+a = ("Hemanth Kumar")
+print (a.upper())
+print (a.lower())
