@@ -60,6 +60,7 @@ else:
 print("Total bill = ₹", bill)"""
 
 # Print day name based on number
+"""
 num = int(input("Enter a number (1-7): "))
 
 if num == 1:
@@ -78,3 +79,13 @@ elif num == 7:
     print("Sunday")
 else:
     print("Invalid number")
+"""
+"""
+age = int(input("Enter age: "))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+"""
+
