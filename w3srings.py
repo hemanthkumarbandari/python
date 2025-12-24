@@ -1,3 +1,4 @@
+"""
 a = ("Hemanth Kumar")
 print (a[3:9])
 
@@ -7,3 +8,4 @@ print (a.lower())
 #strip to remove spaces
 print (a.replace("H","Y"))
 print (a.split(","))
+"""
