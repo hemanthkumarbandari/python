@@ -18,6 +18,7 @@ str1 = ("red")
 str2 = ("orange")
 print str1+str2
 """
+"""
 n = int(input("Enter a number: "))
 sum = 0
 
@@ -25,3 +26,4 @@ for i in range(1, n + 1):
     sum = sum + i
 
 print("Sum:", sum)
+"""
