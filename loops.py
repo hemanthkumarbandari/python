@@ -10,9 +10,20 @@ for i in range(1, 11):
     sum += i
 print("Sum =", sum)"""
 
+"""
 word = input("Enter word: ")
 for ch in word:
     print(ch)
 str1 = ("red")
 str2 = ("orange")
 print str1+str2
+"""
+"""
+n = int(input("Enter a number: "))
+sum = 0
+
+for i in range(1, n + 1):
+    sum = sum + i
+
+print("Sum:", sum)
+"""
