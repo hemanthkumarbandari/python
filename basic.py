@@ -4,6 +4,7 @@ print("Python")
 print ("Hi")
 num = int(input("Enter a number: "))
 """
+"""
 if num % 2 == 0 and num % 3 == 0:
     print("The number is a multiple of both 2 and 3")
 elif num % 2 == 0:
@@ -53,7 +54,7 @@ else:
 a = int(input("Enter A: "))
 b = int(input("Enter B: "))
 c = int(input("Enter C: "))
-
+"""
 if a >= b and a >= c:
     print(a, "is largest")
 elif b >= a and b >= c:
