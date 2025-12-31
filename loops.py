@@ -45,3 +45,10 @@ while n > 0:
     n //= 10
 
 print("Reversed =", rev)
+
+text = "hemz is learning python"
+vowels = "aeiou"
+
+for ch in text:
+    if ch in vowels:
+        print(ch)
