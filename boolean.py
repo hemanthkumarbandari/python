@@ -1,3 +1,4 @@
+"""
 print (7>10)
 print (7 == 10)
 print (7<10)
@@ -9,3 +10,4 @@ if a > b:
     print("true")
 else:
     print("false")
+"""
