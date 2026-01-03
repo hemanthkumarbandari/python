@@ -23,3 +23,11 @@ x , y , z = bikes
 print(x)
 print(y)
 print(z)
+# string methods
+txt = ("HeLLo I AM HeManth")
+x = txt.lower()
+y = txt.capitalize()
+z = txt.upper()
+print (x)
+print (y)
+print (z)
