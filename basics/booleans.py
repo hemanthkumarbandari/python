@@ -1,3 +1,5 @@
+
+"""
 a = 200
 b = 33
 
@@ -12,3 +14,10 @@ print(bool(15))
 print(bool("abc"))
 print(bool(123))
 print(bool(["apple", "cherry", "banana"]))
+"""
+class myclass():
+    def __len__(self):
+        return 5
+
+myobj = myclass()
+print(bool(myobj))
