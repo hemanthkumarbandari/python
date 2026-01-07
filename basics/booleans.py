@@ -15,9 +15,18 @@ print(bool("abc"))
 print(bool(123))
 print(bool(["apple", "cherry", "banana"]))
 """
+"""
 class myclass():
     def __len__(self):
         return 5
 
 myobj = myclass()
 print(bool(myobj))
+"""
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
