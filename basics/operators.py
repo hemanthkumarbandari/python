@@ -20,7 +20,6 @@ y = [1, 2, 3]
 
 print(x == y)
 print(x is y)
-"""
 x = 5
 y = 3
 
@@ -30,3 +29,9 @@ print(x > y)
 print(x < y)
 print(x >= y)
 print(x <= y)
+"""
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
