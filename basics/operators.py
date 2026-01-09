@@ -35,3 +35,12 @@ text = "Hello World"
 print("H" in text)
 print("hello" in text)
 print("z" not in text)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
