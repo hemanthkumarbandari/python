@@ -20,6 +20,14 @@ mylist.append('5')
 print(mylist)
 
 mylist = ['1','2','3','4']
+morenums = ['6','7','8','9']
 mylist.append('5')
 mylist.insert(1, "0")
+print(mylist)
+
+mylist = ['1','2','3','4']
+morenums = ['6','7','8','9']
+mylist.append('5')
+mylist.insert(1, "0")
+mylist.extend(morenums)
 print(mylist)
