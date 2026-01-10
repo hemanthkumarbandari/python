@@ -10,3 +10,16 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 thislist[1:3] = ["blackcurrant", "watermelon"]
 
 print(thislist)
+
+mylist = ["m","n","o","p","q"]
+mylist[2:]=["x","y","z"]
+print(mylist)
+
+mylist = ['1','2','3','4']
+mylist.append('5')
+print(mylist)
+
+mylist = ['1','2','3','4']
+mylist.append('5')
+mylist.insert(1, "0")
+print(mylist)
