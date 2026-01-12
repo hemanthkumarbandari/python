@@ -1,3 +1,4 @@
+"""
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[-4:-1])
 
@@ -31,3 +32,19 @@ mylist.append('5')
 mylist.insert(1, "0")
 mylist.extend(morenums)
 print(mylist)
+
+"""
+list = ["hi", "hlo", "hey"]
+for x in list:
+    print(x)
+
+list = ["hi", "hlo", "hey"]
+for i in range(len(list)):
+    print(i)
+
+list = ["hi", "hlo", "hey"]
+i = 0
+while i < len(list):
+   print(list[i])
+   i = i+1
+  
