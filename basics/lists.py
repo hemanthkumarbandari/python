@@ -47,4 +47,11 @@ i = 0
 while i < len(list):
    print(list[i])
    i = i+1
+
+list = ['orange', 'blue', 'black', 'red', 'pink']
+newlist = []
+for x in list:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
   
