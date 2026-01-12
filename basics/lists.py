@@ -54,4 +54,8 @@ for x in list:
     if "a" in x:
         newlist.append(x)
 print(newlist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = ["fruit: " + x for x in fruits if "a" in x]
+print(newlist)
   
