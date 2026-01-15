@@ -15,6 +15,8 @@ b = "World"
 c = a + " " + b
 print (c)
 """
+"""
 print (10>7)
 print (10==7)
 print (10<7)
+"""
