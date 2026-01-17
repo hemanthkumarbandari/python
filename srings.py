@@ -53,9 +53,11 @@ print("Remove Duplicates:", unique)
 sentence = "Python is very easy"
 print("Reverse Words:", " ".join(sentence.split()[::-1]))
 """
+"""
 print("Title Case:", sentence.title())
 
 print("Contains 'Kumar':", "Kumar" in s)
 
 words = sentence.split()
 print("Longest Word:", max(words, key=len))
+"""
