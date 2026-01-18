@@ -20,3 +20,7 @@ print (10>7)
 print (10==7)
 print (10<7)
 """
+a = "Hello"
+b = "World"
+c = a + " " + b
+print (c)
