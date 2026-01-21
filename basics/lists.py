@@ -69,3 +69,6 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 fruits.sort()
 print (fruits)
 
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+fruits.sort(reverse = True)
+print (fruits)
