@@ -34,6 +34,7 @@ mylist.extend(morenums)
 print(mylist)
 
 """
+"""
 list = ["hi", "hlo", "hey"]
 for x in list:
     print(x)
@@ -58,4 +59,13 @@ print(newlist)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = ["fruit: " + x for x in fruits if "a" in x]
 print(newlist)
-  
+
+list = ['orange', 'blue', 'black', 'red', 'pink']
+for x in list
+
+"""
+# list sort
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+fruits.sort()
+print (fruits)
+
