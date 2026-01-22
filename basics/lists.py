@@ -72,3 +72,9 @@ print (fruits)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 fruits.sort(reverse = True)
 print (fruits)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+
+thislist.sort(key = str.lower)
+
+print(thislist)
