@@ -94,7 +94,7 @@ print(thislist)
 """
 
 # copy list
-
+"""
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print (mylist)
@@ -102,3 +102,20 @@ print (mylist)
 thislist = ["apple", "banana", "cherry"]
 mylist = list(thislist)
 print (mylist)
+"""
+# add list
+
+List1 = ["apple", "banana", "cherry"]
+List2 = [1, 2, 3]
+print (List1 + List2)
+
+List1 = ["add", "sub", "div"]
+List2 = [1, 2, 3]
+for x in List2:
+    List1.append(x)
+print(List1)
+
+List1 = ["add", "sub", "div"]
+List2 = [1, 2, 3]
+List1.append(List2)
+print(List2)
