@@ -65,6 +65,7 @@ for x in list
 
 """
 # list sort
+"""
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 fruits.sort()
 print (fruits)
@@ -90,9 +91,14 @@ thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.sort(key = str.lower)
 
 print(thislist)
+"""
+
+# copy list
 
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
-print(mylist)
+print (mylist)
 
-
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+print (mylist)
