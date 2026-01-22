@@ -91,3 +91,8 @@ thislist.sort(key = str.lower)
 
 print(thislist)
 
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+
+
