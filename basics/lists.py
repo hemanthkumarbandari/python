@@ -172,6 +172,7 @@ print (words)
 """
 #pop
 
+"""
 words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
 words.pop(3)
 print (words)
@@ -179,3 +180,10 @@ print (words)
 words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
 x = words.pop(3)
 print (x)
+"""
+#remove
+
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+words.remove('byeee')
+print (words)
