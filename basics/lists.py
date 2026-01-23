@@ -121,7 +121,7 @@ List1.append(List2)
 print(List2)
 """
 # List methods
-
+"""
 numbers = [3, 1, 4, 1, 5]
 
 numbers.append(9)
@@ -147,3 +147,17 @@ words = ["hiii", "byeee", "hoiiieee", "oyeeee"]
 nums = (5, 6)
 words.extend(nums)
 print (words)
+"""
+#index
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+x = words.index('tataaa')
+print (x)
+
+nums = (8, 1, 3, 0, 6, 7, 4, 6, 3, 0, 1)
+x = nums.index(3)
+print (x)
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+x = words.index('tataaa', 3)
+print (x)
