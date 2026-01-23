@@ -150,6 +150,7 @@ print (words)
 """
 #index
 
+"""
 words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
 x = words.index('tataaa')
 print (x)
@@ -160,4 +161,21 @@ print (x)
 
 words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
 x = words.index('tataaa', 3)
+print (x)
+"""
+#insert
+
+"""
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+words.insert(2, 'hoyyy')
+print (words)
+"""
+#pop
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+words.pop(3)
+print (words)
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+x = words.pop(3)
 print (x)
