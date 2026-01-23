@@ -104,7 +104,7 @@ mylist = list(thislist)
 print (mylist)
 """
 # add list
-
+"""
 List1 = ["apple", "banana", "cherry"]
 List2 = [1, 2, 3]
 print (List1 + List2)
@@ -119,3 +119,31 @@ List1 = ["add", "sub", "div"]
 List2 = [1, 2, 3]
 List1.append(List2)
 print(List2)
+"""
+# List methods
+
+numbers = [3, 1, 4, 1, 5]
+
+numbers.append(9)
+print (numbers)
+
+numbers.clear()
+print (numbers)
+
+nums = [3, 1, 4, 1, 5]
+x = nums.copy()
+print (x)
+
+words = ["hiii", "byeee", "hoiiieee", "oyeeee", 5]
+x = words.count("oyeeee")
+print (x)
+
+words = ["hiii", "byeee", "hoiiieee", "oyeeee"]
+mywords = ("byeee", "tataaa")
+words.extend(mywords)
+print (words)
+
+words = ["hiii", "byeee", "hoiiieee", "oyeeee"]
+nums = (5, 6)
+words.extend(nums)
+print (words)
