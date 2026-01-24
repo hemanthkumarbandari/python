@@ -1,3 +1,4 @@
+"""
 thislist = ["apple", "banana", "cherry"]
 i = 0
 while i < len(thislist):
@@ -31,3 +32,15 @@ print(thistuple[-4:-1])
 thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
+
+"""
+#access
+
+tuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print (len(tuple))
+
+x = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+y = list(x)
+y[1] = "graph"
+tuple = (y)
+print (tuple)

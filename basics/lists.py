@@ -183,7 +183,16 @@ print (x)
 """
 #remove
 
-
+"""
 words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
 words.remove('byeee')
 print (words)
+"""
+#reverse
+
+words = ['hiii', 'byeee','tataaa', 'hoiiieee', 'oyeeee', 'byeee', 'tataaa']
+words.reverse()
+print (words)
+
+
+
