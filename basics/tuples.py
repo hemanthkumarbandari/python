@@ -35,12 +35,19 @@ if "apple" in thistuple:
 
 """
 #access
-
-tuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print (len(tuple))
+x = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print (x[2:6])
+#updating 
 
 x = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 y = list(x)
 y[1] = "graph"
-tuple = (y)
-print (tuple)
+x = tuple(y)
+print (x)
+
+x = ("red", "mud", "fud", "bed")
+y = list(x)
+y[1] = "ted"
+x = tuple(y)
+print(x) 
+
