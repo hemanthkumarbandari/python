@@ -33,7 +33,6 @@ thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
 
-"""
 #access
 x = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print (x[2:6])
@@ -50,4 +49,13 @@ y = list(x)
 y[1] = "ted"
 x = tuple(y)
 print(x) 
+"""
+#unpack
+
+tuple = ("red", "mud", "food")
+(pink, blue, black) = tuple
+print (pink)
+print (blue)
+print (black)
+
 
