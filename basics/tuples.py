@@ -51,11 +51,13 @@ x = tuple(y)
 print(x) 
 """
 #unpack
-
+"""
 tuple = ("red", "mud", "food")
 (pink, blue, black) = tuple
 print (pink)
 print (blue)
 print (black)
-
-
+"""
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
