@@ -92,7 +92,7 @@ while i < len(thistuple):
     i = i + 1
 """
 #join tuples
-
+"""
 t1 = ("red", "blue", "orange")
 t2 = (1, 2, 3)
 print (t1 + t2)
@@ -104,4 +104,9 @@ print (t1 + t2*2)
 t1 = ("red", "blue", "orange")
 t2 = (1, 2, 3)
 print ((t1 + t2)*2)
+"""
+#count
 
+thistuple = (1,2,2,3,5,5,5,6)
+newtuple = thistuple.count(5)
+print (newtuple)
