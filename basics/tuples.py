@@ -80,6 +80,7 @@ print(yellow)
 print(red)
 """
 #loops
+"""
 thistuple = ("red", "blue", "pink", "orange")
 for i in range(len(thistuple)):
     print (thistuple[i])
@@ -89,4 +90,18 @@ i = 0
 while i < len(thistuple):
     print(thistuple[i])
     i = i + 1
+"""
+#join tuples
+
+t1 = ("red", "blue", "orange")
+t2 = (1, 2, 3)
+print (t1 + t2)
+
+t1 = ("red", "blue", "orange")
+t2 = (1, 2, 3)
+print (t1 + t2*2)
+
+t1 = ("red", "blue", "orange")
+t2 = (1, 2, 3)
+print ((t1 + t2)*2)
 
