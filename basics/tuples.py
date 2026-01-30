@@ -70,3 +70,10 @@ print(green)
 print(tropic)
 print(red)
 
+fruits = ("apple", "banana", "cherry", "hi", "strawberry", "raspberry")
+
+(green, *yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
