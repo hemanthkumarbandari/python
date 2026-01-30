@@ -62,6 +62,7 @@ thistuple = ("apple", "banana", "cherry")
 for i in range(len(thistuple)):
   print(thistuple[i])
 """
+"""
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
 (green, *tropic, red) = fruits
@@ -77,3 +78,8 @@ fruits = ("apple", "banana", "cherry", "hi", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red)
+"""
+#loops
+thistuple = ("red", "blue", "pink", "orange")
+for i in range(len(thistuple)):
+    print (thistuple[i])
