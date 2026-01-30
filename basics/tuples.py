@@ -110,3 +110,9 @@ print ((t1 + t2)*2)
 thistuple = (1,2,2,3,5,5,5,6)
 newtuple = thistuple.count(5)
 print (newtuple)
+
+#index
+
+thistuple = (1,2,2,3,5,5,5,6)
+x = thistuple.index(3)
+print (x)
