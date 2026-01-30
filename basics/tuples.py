@@ -83,3 +83,10 @@ print(red)
 thistuple = ("red", "blue", "pink", "orange")
 for i in range(len(thistuple)):
     print (thistuple[i])
+
+thistuple = ("red", "blue", "pink", "orange")
+i = 0 
+while i < len(thistuple):
+    print(thistuple[i])
+    i = i + 1
+
