@@ -4,3 +4,9 @@ print (myset)
 myset = {"orange", "banana", "papaya", "orange"}
 print (myset)
 
+myset = {"orange", "banana", True, 1, 2, 3, "papa"}
+print (myset)
+
+myset = {"orange", "banana", 1, 2, 3, True, "papa"}
+print (myset)
+
