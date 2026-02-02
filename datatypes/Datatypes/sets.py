@@ -21,3 +21,8 @@ print(set1) # values changes everytime
 print(set2)
 print(set3) 
 
+thisset = {"apple", "banana", "cherry"}
+
+print(len(thisset))
+
+
