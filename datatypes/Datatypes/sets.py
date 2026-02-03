@@ -25,4 +25,15 @@ thisset = {"apple", "banana", "cherry"}
 
 print(len(thisset))
 
+thisset = {"apple", "banana", "cherry"}
+
+thisset.add("orange")
+
+print(thisset)
+
+thisset = {'car', 'bus', 'bike'}
+newset = {'hero', 'honda', 'susuki'}
+thisset.update(newset)
+print (thisset)
+
 
