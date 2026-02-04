@@ -53,3 +53,14 @@ print (newset)
 newset = {'hi', 'hey', 'hola'}
 newset.discard("hi")
 print (newset)
+
+newset = {'hi', 'hey', 'hola'}
+x = newset.pop()
+print (x)
+print(newset)
+
+thisset = {"apple", "banana", "cherry"}
+
+del thisset
+
+print(thisset)
