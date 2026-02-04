@@ -107,3 +107,13 @@ set1 = {'big', 'bug', 'mug', 'jeg'}
 set2 = {'jeg', 'hat', 'jet', 'bug'}
 set3 = set1.difference_update(set2)
 print (set3)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1.symmetric_difference(set2)
+print (set3)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1.symmetric_difference_update(set2)
+print (set3)
