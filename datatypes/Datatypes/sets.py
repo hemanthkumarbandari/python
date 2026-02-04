@@ -82,3 +82,14 @@ set2 = {'cat', 'hat', 'jet', 'kit'}
 set3 = {1, 2, 3, 4}
 myset = set1 | set2 | set3
 print (myset)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1.intersection(set2)
+print (set3)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1 & set2
+print (set3)
+
