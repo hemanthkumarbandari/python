@@ -36,4 +36,10 @@ newset = {'hero', 'honda', 'susuki'}
 thisset.update(newset)
 print (thisset)
 
+newset = {'hi', 'hey', 'hola'}
+x = newset.pop()
+print (x)
+print (newset)
 
+sett = {"red", "red" , "red"}
+print (sett)

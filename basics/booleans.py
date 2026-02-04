@@ -40,3 +40,7 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+num1 = int(input("Eneter a number:"))
+num2 = int(input("Eneter a number:"))
+print (str("A > B is ") + str(num1 > num2))
