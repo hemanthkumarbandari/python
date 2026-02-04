@@ -90,7 +90,7 @@ print (set3)
 
 set1 = {'big', 'bug', 'mug', 'jeg'}
 set2 = {'jeg', 'hat', 'jet', 'bug'}
-set3 = set1 & set2
+set1 & set2
 print (set3)
 
 set1 = {'big', 'bug', 'mug', 'jeg'}
@@ -100,5 +100,10 @@ print (set3)
 
 set1 = {'big', 'bug', 'mug', 'jeg'}
 set2 = {'jeg', 'hat', 'jet', 'bug'}
-set3 = set1 - set2
+set1 - set2
+print (set3)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1.difference_update(set2)
 print (set3)
