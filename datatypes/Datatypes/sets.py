@@ -60,7 +60,25 @@ print (x)
 print(newset)
 
 thisset = {"apple", "banana", "cherry"}
-
-del thisset
-
+thisset.clear()
 print(thisset)
+
+#loops
+
+thisset = {"apple", "banana", "cherry"}
+for x in thisset:
+    print(x)
+
+#join
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'cat', 'hat', 'jet', 'kit'}
+set3 = {1, 2, 3, 4}
+myset = set1.union(set2, set3)
+print (myset)
+
+set1 = {'big', 'bug', 'mug', 'jeg'}
+set2 = {'cat', 'hat', 'jet', 'kit'}
+set3 = {1, 2, 3, 4}
+myset = set1 | set2 | set3
+print (myset)
