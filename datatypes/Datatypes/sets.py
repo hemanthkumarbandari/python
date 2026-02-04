@@ -43,3 +43,13 @@ print (newset)
 
 sett = {"red", "red" , "red"}
 print (sett)
+
+#remove
+
+newset = {'hi', 'hey', 'hola'}
+newset.remove("hi")
+print (newset)
+
+newset = {'hi', 'hey', 'hola'}
+newset.discard("hi")
+print (newset)
