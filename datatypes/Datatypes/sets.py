@@ -126,3 +126,8 @@ print (set3)
 x = frozenset({'set', 'bet', 'wet'})
 print (x)
 print (type(x))
+
+set1 = {'bug', 'bug', 'mug', 'jeg'}
+set2 = {'jeg', 'hat', 'jet', 'bug'}
+set3 = set1.symmetric_difference_update(set2)
+print (set3)
