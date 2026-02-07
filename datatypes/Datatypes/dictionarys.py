@@ -4,3 +4,4 @@ mydict = {
 }
 
 print (mydict)
+print (mydict["name"])
