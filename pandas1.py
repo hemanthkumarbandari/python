@@ -28,3 +28,4 @@ print(df)
 
 print("\nFiltered DataFrame (Age > 25):")
 print(filtered_df)
+print (df)
