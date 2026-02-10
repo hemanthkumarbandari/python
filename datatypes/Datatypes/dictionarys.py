@@ -1,3 +1,4 @@
+"""
 mydict = {
     "name": ["red" , "green", "black"],
     "age": [1, 2, 3] 
@@ -5,3 +6,4 @@ mydict = {
 
 print (mydict)
 print (mydict["name"])
+"""
