@@ -1,4 +1,5 @@
 # This is a single-line comment
+"""
 x = 10  # You can also put a comment after code
 print(x)
 
@@ -8,7 +9,7 @@ length = 5
 width = 3
 area = length * width
 print(area)
-
+"""
 """
 This is a multi-line string,
 often used as a multi-line comment.
