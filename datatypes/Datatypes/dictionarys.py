@@ -51,6 +51,16 @@ if "KTM" in thisdict:
   print ("yes")
 else:
   print ("No")
+
+#changing
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+thisdict["bike"] = "JAVA"
+print (thisdict)
 """
 thisdict =	{
   "brand": "Ford",
