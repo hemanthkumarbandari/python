@@ -1,3 +1,5 @@
+#dictionarys
+
 mydict = {
     "name": ["red" , "green", "black"],
     "age": [1, 2, 3] 
@@ -5,8 +7,25 @@ mydict = {
 
 print (mydict)
 print (mydict["name"])
-print (mydict)
 
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict) 
+
+# accesing 
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+x = thisdict.keys()
+print (x)
+thisdict["SUV"] = "MG"
+print (x)
+x = thisdict.values()
+thisdict["bike"] = "JAVA"
+print (x)
+"""
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -128,3 +147,4 @@ thisdict =	{
 }
 thisdict.popitem()
 print(thisdict)
+"""
