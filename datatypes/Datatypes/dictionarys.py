@@ -61,6 +61,42 @@ thisdict = {
 }
 thisdict["bike"] = "JAVA"
 print (thisdict)
+thisdict.update({"scooty": "FZ"})
+print (thisdict)
+
+#remove
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+thisdict.pop('car')
+print (thisdict)
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+thisdict.popitem()
+print (thisdict)
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+del thisdict["bike"]
+print (thisdict)
+
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+thisdict.clear()
+print (thisdict)
 """
 thisdict =	{
   "brand": "Ford",
