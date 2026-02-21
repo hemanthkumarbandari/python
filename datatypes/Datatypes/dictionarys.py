@@ -25,6 +25,32 @@ print (x)
 x = thisdict.values()
 thisdict["bike"] = "JAVA"
 print (x)
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.items()
+
+print(x) #before the change
+
+car["year"] = 2020
+
+print(x) #after the change
+thisdict = {
+  "car": "BMW",
+  "bike": "KTM",
+  "scooty": "TVS"
+}
+if "car" in thisdict:
+  print ("yes")
+else:
+  print ("No")
+if "KTM" in thisdict:
+  print ("yes")
+else:
+  print ("No")
 """
 thisdict =	{
   "brand": "Ford",
