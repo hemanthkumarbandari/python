@@ -33,15 +33,6 @@ while num > 0:
 
 print(rev)
 
-num = 12345
-count = 0
-
-while num > 0:
-    count += 1
-    num //= 10
-
-print(count)
-
 n = 7
 is_prime = True
 
@@ -68,3 +59,12 @@ a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
+
+num = 12345
+count = 0
+
+while num > 0:
+    count += 1
+    num //= 10
+
+print(count)
