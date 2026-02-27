@@ -25,6 +25,7 @@ print (x)
 x = thisdict.values()
 thisdict["bike"] = "JAVA"
 print (x)
+
 car = {
 "brand": "Ford",
 "model": "Mustang",
@@ -97,7 +98,7 @@ thisdict = {
 }
 thisdict.clear()
 print (thisdict)
-"""
+
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -219,4 +220,11 @@ thisdict =	{
 }
 thisdict.popitem()
 print(thisdict)
-"""
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(x)
