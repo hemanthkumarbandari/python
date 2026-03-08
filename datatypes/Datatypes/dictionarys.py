@@ -309,7 +309,7 @@ myfamily = {
 print(myfamily["child2"]["name"])
 
 thisdict = {
-  "brand": "Ford",
+  "brand": "Gord",
   "model": "Mustang",
   "year": 1964
 }
