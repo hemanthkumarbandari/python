@@ -156,3 +156,11 @@ thisdict = {
 }
 for x, y in thisdict.items():
   print(x, y)
+
+thisdict = {
+  "colour": "orange",
+  "hero": "nani",
+  "bike": "dugati"
+}
+mydict = thisdict.copy()
+print(mydict)
