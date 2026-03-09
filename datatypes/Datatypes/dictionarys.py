@@ -130,14 +130,7 @@ thisdict =	{
   "model": "Mustang",
   "year": 1964
 }
-for x in thisdict:
-  print(thisdict[x])
 
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
 for x in thisdict.values():
   print(x)
 
@@ -149,3 +142,10 @@ thisdict =	{
 for x in thisdict.keys():
   print(x)
 
+thisdict = {
+  "key" : "value",
+  "object": "number",
+  "thing": "char" 
+}
+for x in thisdict:
+  print(thisdict[x])
