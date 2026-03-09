@@ -148,3 +148,11 @@ thisdict = {
 }
 for x in thisdict.values():
   print(x)
+
+thisdict = {
+  "anime": "aot",
+  "movie": "demons",
+  "series": "it"
+}
+for x, y in thisdict.items():
+  print(x, y)
