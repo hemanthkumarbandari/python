@@ -57,3 +57,8 @@ if age >= 18:
         print("❌ Only Indian citizens are eligible for this check.")
 else:
     print("❌ You are underage and cannot drive.")
+
+#shorthand
+username = ""
+display_name = username if username else "Guest"
+print("Welcome,", display_name)
