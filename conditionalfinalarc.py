@@ -42,7 +42,7 @@ elif op == '%':
         print("Error: Division by zero not allowed")
 else:
     print("Invalid Operator")"""
-
+"""
 age = int(input("Enter your age: "))
 citizen = input("Are you an Indian citizen? (yes/no): ").lower()
 has_license = input("Do you have a valid driving license? (yes/no): ").lower()
@@ -57,7 +57,7 @@ if age >= 18:
         print("❌ Only Indian citizens are eligible for this check.")
 else:
     print("❌ You are underage and cannot drive.")
-
+"""
 #shorthand
 username = ""
 display_name = username if username else "Guest"
@@ -68,3 +68,9 @@ b = 33
 c = 500
 if a > b and c > a:
   print("Both conditions are True")
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
