@@ -90,3 +90,11 @@ if (age < 18 or age > 65) and not is_student or has_discount_code:
   print("Discount applies!")
 else:
   print("Discount does not applies")
+
+a = 33
+b = 200
+
+if b > a:
+  pass
+
+# having an empty if statement like this, would raise an error without the pass statement
