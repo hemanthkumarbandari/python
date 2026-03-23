@@ -30,3 +30,8 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
+
+is_logged_in = True
+
+if is_logged_in:
+  print("Welcome back!")
