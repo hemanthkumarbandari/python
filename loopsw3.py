@@ -35,3 +35,7 @@ is_logged_in = True
 
 if is_logged_in:
   print("Welcome back!")
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x) 
