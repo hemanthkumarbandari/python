@@ -1,3 +1,2 @@
-list {1,3,4,5}
-range = 5:
-for n
+def my_function():
+  print("Hello from a function")
