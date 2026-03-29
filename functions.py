@@ -18,3 +18,10 @@ def find_palindrome(lst):
 
 words = ["madam","apple","level","python","radar"]
 find_palindrome(words)
+
+#basics
+
+def function():
+    print("hi")
+function()
+function()
