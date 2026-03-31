@@ -7,3 +7,18 @@ class Student:
 
 s1 = Student("Hemz")
 s1.show()
+
+# parent
+class Employee:
+    def show_employee(self):
+        print("I am an Employee")
+#child
+class Developer(Employee):
+    def show_developer(self):
+        print("I am a Developer")
+#obj
+dev = Developer()
+#obj from child
+dev.show_developer()
+#obj from parent
+dev.show_employee()
