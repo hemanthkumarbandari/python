@@ -68,3 +68,35 @@ class Penguin(Bird):
 
 p = Penguin()
 p.fly()
+
+class Employee:
+    def __init__(self, name):
+        self.name = name
+
+class Developer(Employee):
+    def __init__(self, name, lang):
+        super().__init__(name)
+        self.lang = lang
+
+    def show(self):
+        print(self.name, "codes in", self.lang)
+
+d = Developer("Hemz", "Python")
+d.show()
+
+class A:
+    def showA(self):
+        print("Class A")
+
+class B(A):
+    def showB(self):
+        print("Class B")
+
+class C(B):
+    def showC(self):
+        print("Class C")
+
+obj = C()
+obj.showA()
+obj.showB()
+obj.showC()
