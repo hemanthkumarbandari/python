@@ -22,3 +22,15 @@ dev = Developer()
 dev.show_developer()
 #obj from parent
 dev.show_employee()
+
+#inheritence
+
+class Animal:
+    def sound(self):
+        print("Animals make sound")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.sound()
