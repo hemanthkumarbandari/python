@@ -57,3 +57,14 @@ class Student(Person):
 
 s = Student("Hemz")
 s.display()
+
+class Bird:
+    def fly(self):
+        print("Bird can fly")
+
+class Penguin(Bird):
+    def fly(self):
+        print("Penguin cannot fly")
+
+p = Penguin()
+p.fly()
