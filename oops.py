@@ -100,3 +100,19 @@ obj = C()
 obj.showA()
 obj.showB()
 obj.showC()
+
+class Father:
+    def skill(self):
+        print("Gardening")
+
+class Son(Father):
+    pass
+
+class Daughter(Father):
+    pass
+
+s = Son()
+d = Daughter()
+
+s.skill()
+d.skill()
