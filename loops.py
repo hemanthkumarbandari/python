@@ -59,3 +59,13 @@ a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
+
+class Solution:
+    def graycode(self, n):
+        result = []
+        
+        for i in range(1 << n):
+            gray = i ^ (i >> 1)
+            result.append(gray)   # store integer directly
+        
+        return result
