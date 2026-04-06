@@ -121,3 +121,42 @@ def my_function(name):
   print("Hello", name)
 
 my_function("Emil")
+
+class Animal:
+    def sound(self):
+        print("Animal is shouting")
+
+class Dog(Animal):
+    def sound(self):
+        print("Bow")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+
+a = Animal()
+d = Dog()
+c = Cat()
+
+a.sound()
+d.sound()
+c.sound()
+
+class Employee:
+    def __init__(self, name):
+        self.name = name
+
+
+class Developer(Employee):
+    def __init__(self, name, prog_lang):
+        super().__init__(name)   # calling parent constructor
+        self.prog_lang = prog_lang
+
+    def display(self):
+        print("Name:", self.name)
+        print("Programming Language:", self.prog_lang)
+
+
+# Example usage
+dev1 = Developer("Hemanth", "Python")
+dev1.display()
