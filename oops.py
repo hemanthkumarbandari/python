@@ -161,3 +161,26 @@ class Developer(Employee):
 dev1 = Developer("Hemanth", "Python")
 dev1.display()
 
+class Employee:
+    def salary(self):
+        print("Base salary")
+
+
+class Manager(Employee):
+    def salary(self):
+        print("Manager salary: 50000")
+
+
+class Developer(Employee):
+    def salary(self):
+        print("Developer salary: 30000")
+
+
+# Usage
+e = Employee()
+m = Manager()
+d = Developer()
+
+e.salary()
+m.salary()
+d.salary()
