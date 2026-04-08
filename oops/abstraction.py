@@ -91,3 +91,40 @@ print("Circle Perimeter:", c.perimeter())
 
 print("Rectangle Area:", r.area())
 print("Rectangle Perimeter:", r.perimeter())
+
+from abc import ABC, abstractmethod
+
+# Abstract Class
+class Payment(ABC):
+
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+
+# Credit Card Payment
+class CreditCardPayment(Payment):
+    def pay(self, amount):
+        print(f"Paid {amount} using Credit Card")
+
+
+# UPI Payment
+class UPIPayment(Payment):
+    def pay(self, amount):
+        print(f"Paid {amount} using UPI")
+
+
+# Net Banking Payment
+class NetBankingPayment(Payment):
+    def pay(self, amount):
+        print(f"Paid {amount} using Net Banking")
+
+
+# Usage
+p1 = CreditCardPayment()
+p2 = UPIPayment()
+p3 = NetBankingPayment()
+
+p1.pay(1000)
+p2.pay(500)
+p3.pay(2000)
