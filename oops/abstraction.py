@@ -128,3 +128,39 @@ p3 = NetBankingPayment()
 p1.pay(1000)
 p2.pay(500)
 p3.pay(2000)
+
+#all methods
+
+from abc import ABC, abstractmethod
+
+
+# Abstract Class
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+    @abstractmethod
+    def show(self):
+        pass
+
+
+# Child Class
+class Square(Shape):
+
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side * self.side
+
+    def show(self):
+        print("This is a Square")
+
+
+# Usage
+s = Square(4)
+
+print("Area:", s.area())
+s.show()
