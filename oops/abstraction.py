@@ -164,3 +164,7 @@ s = Square(4)
 
 print("Area:", s.area())
 s.show()
+
+words = ["apple", "pie", "banana", "cherry"]
+sorted_words = sorted(words, key=lambda x: len(x))
+print(sorted_words)
