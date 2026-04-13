@@ -6,3 +6,17 @@ print(add(2, 3, 4))   # 9
 
 print(5 + 3)        # 8 (addition)
 print("Hello " + "World")  # Hello World (string concat)
+
+class Bird:
+    def fly(self):
+        print("Bird flying")
+
+class Airplane:
+    def fly(self):
+        print("Airplane flying")
+
+def start(obj):
+    obj.fly()
+
+start(Bird())
+start(Airplane())
