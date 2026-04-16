@@ -43,3 +43,7 @@ class Math:
 m = Math()
 m.add(2, 3)      # 5
 m.add(2, 3, 4)   # 9
+
+print(len("Hello"))     # 5
+print(len([1, 2, 3]))  # 3
+
