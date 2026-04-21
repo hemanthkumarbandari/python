@@ -75,3 +75,16 @@ class Cat(Animal):
 
 Dog().sound()
 Cat().sound()
+
+class Student:
+    def __init__(self, marks):
+        self.marks = marks
+
+    def grade(self):
+        if self.marks > 50:
+            print("Pass")
+        else:
+            print("Fail")
+
+s = Student(40)
+s.grade()
