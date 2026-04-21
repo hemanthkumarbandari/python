@@ -30,3 +30,21 @@ class Employee:
 
 e1 = Employee("John", 50000)
 e1.show_details()
+
+class Bank:
+    def __init__(self):
+        self.__balance = 0
+
+    def deposit(self, amt):
+        self.__balance += amt
+
+    def withdraw(self, amt):
+        self.__balance -= amt
+
+    def show_balance(self):
+        print(self.__balance)
+
+b = Bank()
+b.deposit(1000)
+b.withdraw(200)
+b.show_balance()
