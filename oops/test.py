@@ -88,3 +88,21 @@ class Student:
 
 s = Student(40)
 s.grade()
+
+class ATM:
+    def __init__(self):
+        self.__bal = 0
+
+    def deposit(self, a):
+        self.__bal += a
+
+    def withdraw(self, a):
+        self.__bal -= a
+
+    def check(self):
+        print(self.__bal)
+
+a = ATM()
+a.deposit(1000)
+a.withdraw(200)
+a.check()
