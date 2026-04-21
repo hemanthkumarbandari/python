@@ -121,3 +121,18 @@ class Manager(Employee):
 
 Developer().work()
 Manager().work()
+
+class Shape:
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def area(self):
+        print("Circle area")
+
+class Rectangle(Shape):
+    def area(self):
+        print("Rectangle area")
+
+Circle().area()
+Rectangle().area()
