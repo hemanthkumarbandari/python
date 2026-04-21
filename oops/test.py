@@ -48,3 +48,15 @@ b = Bank()
 b.deposit(1000)
 b.withdraw(200)
 b.show_balance()
+
+class Vehicle:
+    def start(self):
+        print("Start")
+
+class Car(Vehicle):
+    def drive(self):
+        print("Drive")
+
+c = Car()
+c.start()
+c.drive()
