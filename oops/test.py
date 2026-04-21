@@ -106,3 +106,18 @@ a = ATM()
 a.deposit(1000)
 a.withdraw(200)
 a.check()
+
+class Employee:
+    def work(self):
+        print("Work")
+
+class Developer(Employee):
+    def work(self):
+        print("Code")
+
+class Manager(Employee):
+    def work(self):
+        print("Manage")
+
+Developer().work()
+Manager().work()
