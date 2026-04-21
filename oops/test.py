@@ -60,3 +60,18 @@ class Car(Vehicle):
 c = Car()
 c.start()
 c.drive()
+
+class Animal:
+    def sound(self):
+        print("Sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+
+Dog().sound()
+Cat().sound()
