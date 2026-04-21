@@ -19,3 +19,14 @@ s2 = Student("Ram", 60)
 
 s1.display()
 s2.display()
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def show_details(self):
+        print(self.name, self.salary)
+
+e1 = Employee("John", 50000)
+e1.show_details()
