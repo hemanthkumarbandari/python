@@ -136,3 +136,15 @@ class Rectangle(Shape):
 
 Circle().area()
 Rectangle().area()
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def display(self):
+        print(self.name, self.price)
+
+Product("Pen",10).display()
+Product("Book",50).display()
+Product("Bag",500).display()
