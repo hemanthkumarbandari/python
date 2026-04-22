@@ -148,3 +148,36 @@ class Product:
 Product("Pen",10).display()
 Product("Book",50).display()
 Product("Bag",500).display()
+
+#2
+class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+    def display(self):
+        print(self.name, self.age, self.marks)
+
+s1 = Student("Ram", 20, 85)
+s2 = Student("Sam", 21, 90)
+s3 = Student("Tom", 19, 78)
+
+s1.display()
+s2.display()
+s3.display()
+
+class Employee:
+    def __init__(self, name, department, salary):
+        self.name = name
+        self.department = department
+        self.salary = salary
+
+    def show_details(self):
+        print(self.name, self.department, self.salary)
+
+e1 = Employee("John", "IT", 50000)
+e2 = Employee("Sara", "HR", 45000)
+
+e1.show_details()
+e2.show_details()
