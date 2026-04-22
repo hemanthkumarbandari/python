@@ -181,3 +181,22 @@ e2 = Employee("Sara", "HR", 45000)
 
 e1.show_details()
 e2.show_details()
+
+class BankAccount:
+    def __init__(self, b):
+        self.__b = b
+
+    def deposit(self, a):
+        self.__b += a
+
+    def withdraw(self, a):
+        if a <= self.__b:
+            self.__b -= a
+
+    def check_balance(self):
+        print(self.__b)
+
+acc = BankAccount(1000)
+acc.deposit(500)
+acc.withdraw(300)
+acc.check_balance()
