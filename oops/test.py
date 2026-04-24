@@ -219,3 +219,14 @@ acc = BankAccount(1000)
 acc.deposit(500)
 acc.withdraw(300)
 acc.check_balance()
+
+class Animal:
+    def sound(self):
+        print("Animal sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog bark")
+
+d = Dog()
+d.sound()
