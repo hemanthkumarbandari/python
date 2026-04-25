@@ -97,3 +97,18 @@ v2 = Bike()
 
 v1.start()
 v2.start()
+
+class Calculator:
+
+    def add(self, a, b, c=None):
+        if c is not None:
+            return a + b + c
+        return a + b
+
+
+# Usage
+calc = Calculator()
+
+print(calc.add(2, 3))        # 2 arguments
+print(calc.add(2, 3, 4))     # 3 arguments
+print(calc.add(2.5, 3.5))    # float
