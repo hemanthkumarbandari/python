@@ -75,3 +75,25 @@ acc = BankAccount("12345", 1000)
 acc.deposit(500)
 acc.withdraw(300)
 print("Balance:", acc.get_balance())
+
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting...")
+
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with key")
+
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with kick or button")
+
+
+# Usage
+v1 = Car()
+v2 = Bike()
+
+v1.start()
+v2.start()
