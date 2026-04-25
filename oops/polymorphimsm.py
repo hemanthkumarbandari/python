@@ -47,3 +47,31 @@ m.add(2, 3, 4)   # 9
 print(len("Hello"))     # 5
 print(len([1, 2, 3]))  # 3
 
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number   # private variable
+        self.__balance = balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            print("Deposited:", amount)
+        else:
+            print("Invalid deposit amount!")
+
+    def withdraw(self, amount):
+        if 0 < amount <= self.__balance:
+            self.__balance -= amount
+            print("Withdrawn:", amount)
+        else:
+            print("Insufficient balance or invalid amount!")
+
+    def get_balance(self):
+        return self.__balance
+
+
+# Usage
+acc = BankAccount("12345", 1000)
+acc.deposit(500)
+acc.withdraw(300)
+print("Balance:", acc.get_balance())
