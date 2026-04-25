@@ -112,3 +112,21 @@ calc = Calculator()
 print(calc.add(2, 3))        # 2 arguments
 print(calc.add(2, 3, 4))     # 3 arguments
 print(calc.add(2.5, 3.5))    # float
+
+class Engine:
+    def start(self):
+        print("Engine started")
+
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()   # composition
+
+    def start_car(self):
+        print("Starting car...")
+        self.engine.start()
+
+
+# Usage
+car = Car()
+car.start_car()
