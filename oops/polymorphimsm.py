@@ -130,3 +130,35 @@ class Car:
 # Usage
 car = Car()
 car.start_car()
+
+class Student:
+    school_name = "ABC School"   # class variable
+
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def change_school(cls, new_name):
+        cls.school_name = new_name
+
+    @staticmethod
+    def info():
+        print("Students are part of a school")
+
+    def display(self):
+        print(self.name, "-", Student.school_name)
+
+
+# Usage
+s1 = Student("Hemz")
+s2 = Student("Rahul")
+
+s1.display()
+s2.display()
+
+Student.change_school("XYZ School")
+
+s1.display()
+s2.display()
+
+Student.info()
