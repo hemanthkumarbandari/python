@@ -230,3 +230,17 @@ class Dog(Animal):
 
 d = Dog()
 d.sound()
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+# Usage
+s = Student("Hemz", 20)
+s.display()
