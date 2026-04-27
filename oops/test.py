@@ -253,3 +253,12 @@ class Car:
 # Usage
 c1 = Car()
 c2 = Car()
+
+class Calculator:
+    def multiply(self, a, b):
+        return a * b
+
+
+# Usage
+calc = Calculator()
+print("Result:", calc.multiply(3, 4))
