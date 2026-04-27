@@ -244,3 +244,12 @@ class Student:
 # Usage
 s = Student("Hemz", 20)
 s.display()
+
+class Car:
+    def __init__(self):
+        print("Car object created")
+
+
+# Usage
+c1 = Car()
+c2 = Car()
