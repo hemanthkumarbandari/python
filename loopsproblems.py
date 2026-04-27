@@ -1,7 +1,12 @@
-n = int(input())
-total = 0
+# Reverse a Number
+# "Write a program to reverse a given integer using loops."
 
-for i in range(1, n + 1):
-    total += i
+n = 1234
+rev = 0
 
-print(total)
+while n > 0:
+    digit = n % 10
+    rev = rev * 10 + digit
+    n //= 10
+
+print(rev)
