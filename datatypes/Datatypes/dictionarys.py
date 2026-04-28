@@ -204,3 +204,19 @@ myfamily = {
 }
 
 print(myfamily)
+
+# List
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+
+# Tuple
+coordinates = (10, 20)
+print("Tuple:", coordinates)
+
+# Set
+unique_numbers = {1, 2, 3, 3, 4}
+print("Set:", unique_numbers)
+
+# Dictionary
+person = {"name": "John", "age": 25}
+print("Dictionary:", person)
