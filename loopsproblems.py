@@ -23,3 +23,15 @@ while n > 0:
     n //= 10
 
 print("Palindrome" if temp == rev else "Not Palindrome")
+
+# Count Digits
+# "Count the number of digits in a given integer."
+
+n = 12345
+count = 0
+
+while n > 0:
+    count += 1
+    n //= 10
+
+print(count)
