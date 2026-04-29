@@ -35,3 +35,13 @@ while n > 0:
     n //= 10
 
 print(count)
+
+# Fibonacci Series
+# "Print the first N Fibonacci numbers using a loop."
+
+n = 6
+a, b = 0, 1
+
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
