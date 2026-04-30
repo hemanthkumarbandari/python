@@ -45,3 +45,19 @@ a, b = 0, 1
 for _ in range(n):
     print(a, end=" ")
     a, b = b, a + b
+
+# Prime Number Check
+# "Check if a number is prime using a loop."
+
+n = 29
+is_prime = True
+
+if n < 2:
+    is_prime = False
+else:
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            is_prime = False
+            break
+
+print("Prime" if is_prime else "Not Prime")
