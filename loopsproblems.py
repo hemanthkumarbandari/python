@@ -61,3 +61,11 @@ else:
             break
 
 print("Prime" if is_prime else "Not Prime")
+
+# Multiplication Table
+# "Print multiplication table of a given number up to 10."
+
+n = 5
+
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
