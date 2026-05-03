@@ -80,3 +80,18 @@ for i in range(1, n + 1):
     fact *= i
 
 print(fact)
+
+# Armstrong Number
+# "Check whether a number is an Armstrong number."
+
+n = 153
+temp = n
+power = len(str(n))
+total = 0
+
+while temp > 0:
+    digit = temp % 10
+    total += digit ** power
+    temp //= 10
+
+print("Armstrong" if total == n else "Not Armstrong")
