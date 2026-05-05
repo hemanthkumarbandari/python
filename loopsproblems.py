@@ -119,3 +119,14 @@ while n > 0:
     n //= 10
 
 print(max_digit)
+
+# Reverse a String
+# "Reverse a given string using a loop without slicing."
+
+s = "hello"
+rev = ""
+
+for ch in s:
+    rev = ch + rev
+
+print(rev)
