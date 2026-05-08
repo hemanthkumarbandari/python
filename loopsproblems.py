@@ -146,3 +146,12 @@ for i in range(1, n + 1):
 
 print("Even Sum:", even_sum)
 print("Odd Sum:", odd_sum)
+
+# Factors of a Number
+# "Print all factors of a given number using a loop."
+
+n = 12
+
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i, end=" ")
