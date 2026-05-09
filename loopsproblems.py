@@ -155,3 +155,15 @@ n = 12
 for i in range(1, n + 1):
     if n % i == 0:
         print(i, end=" ")
+
+# Count Vowels
+# "Count the number of vowels in a string using loops."
+
+s = "programming"
+count = 0
+
+for ch in s:
+    if ch.lower() in "aeiou":
+        count += 1
+
+print(count)
