@@ -167,3 +167,26 @@ for ch in s:
         count += 1
 
 print(count)
+
+# Count Vowels
+# "Count the number of vowels in a string using loops."
+
+s = "programming"
+count = 0
+
+for ch in s:
+    if ch.lower() in "aeiou":
+        count += 1
+
+print(count)
+
+# Reverse a String
+# "Reverse a given string using a loop without slicing."
+
+s = "hello"
+rev = ""
+
+for ch in s:
+    rev = ch + rev
+
+print(rev)
