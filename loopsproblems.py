@@ -1,3 +1,4 @@
+"""
 # Reverse a Number
 # "Write a program to reverse a given integer using loops."
 
@@ -190,3 +191,11 @@ for ch in s:
     rev = ch + rev
 
 print(rev)
+"""
+
+# practice
+# practice
+
+n = int(input("enter no."))
+for i in range (1, n+1):
+    print(i)
