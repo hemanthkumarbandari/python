@@ -208,3 +208,9 @@ for i in range(1, n+1):
     total = n + i
 
     print("sum= ", total)
+
+
+num = int(input("Enter number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
