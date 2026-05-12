@@ -214,3 +214,16 @@ num = int(input("Enter number: "))
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
+
+# Reverse a Number
+
+num = int(input("Enter number: "))
+
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+print("Reversed Number =", reverse)
