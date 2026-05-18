@@ -168,3 +168,21 @@ s.show()
 words = ["apple", "pie", "banana", "cherry"]
 sorted_words = sorted(words, key=lambda x: len(x))
 print(sorted_words)
+
+#plmsss
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+
+    def sound(self):
+        print("Bark")
+
+d = Dog()
+d.sound()
