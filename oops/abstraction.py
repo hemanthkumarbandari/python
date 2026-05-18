@@ -206,3 +206,27 @@ class Rectangle(Shape):
 
 r = Rectangle(5, 4)
 r.area()
+
+from abc import ABC, abstractmethod
+
+class BankAccount(ABC):
+
+    @abstractmethod
+    def interest(self):
+        pass
+
+class Savings(BankAccount):
+
+    def interest(self):
+        print("Savings Interest: 5%")
+
+class Current(BankAccount):
+
+    def interest(self):
+        print("Current Interest: 2%")
+
+s = Savings()
+c = Current()
+
+s.interest()
+c.interest()
