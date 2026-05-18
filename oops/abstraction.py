@@ -186,3 +186,23 @@ class Dog(Animal):
 
 d = Dog()
 d.sound()
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+
+    def __init__(self, l, b):
+        self.l = l
+        self.b = b
+
+    def area(self):
+        print("Area =", self.l * self.b)
+
+r = Rectangle(5, 4)
+r.area()
