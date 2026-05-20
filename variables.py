@@ -77,3 +77,13 @@ print(type(g))
 
 x = 10
 print (x == 15)
+
+a, b, c = 10, 20 ,30
+print(a, b, c)
+
+a, b = 10, 20
+
+a, b = b, a
+
+print(a)
+print(b)
