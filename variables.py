@@ -64,9 +64,16 @@ b = 18
 c = 12.56
 d = True
 e = ("hi, hlo, hey")
+f = 5 + 6j
+g = None
 
 print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
+print(type(f))
+print(type(g))
+
+x = 10
+print (x == 15)
