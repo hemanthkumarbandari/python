@@ -1,3 +1,4 @@
+"""
 x = 5
 y = "jhon"
 print (x)
@@ -87,3 +88,36 @@ a, b = b, a
 
 print(a)
 print(b)
+
+x = 100
+def test():
+  print(x)
+
+test()
+"""
+x = 100
+def test1():
+  y = 200
+  print(y)
+def test2():
+  print(x)
+
+test1()
+test2()
+print(x)
+
+x = 10
+def change():
+  global x
+  x = 20
+
+change()
+
+x = 5
+
+def fun():
+  x = 10
+  print(x)
+  
+fun()
+print(x)
