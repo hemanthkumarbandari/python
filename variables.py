@@ -46,3 +46,27 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+
+name = "hemz"
+age = 21
+
+print (name)
+print (age)
+
+x = "shashi"
+y = 19
+
+print(x)
+print(y)
+
+a = "hi"
+b = 18
+c = 12.56
+d = True
+e = ("hi, hlo, hey")
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
