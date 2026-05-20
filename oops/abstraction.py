@@ -168,3 +168,135 @@ s.show()
 words = ["apple", "pie", "banana", "cherry"]
 sorted_words = sorted(words, key=lambda x: len(x))
 print(sorted_words)
+
+#plmsss
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+
+    def sound(self):
+        print("Bark")
+
+d = Dog()
+d.sound()
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+
+    def __init__(self, l, b):
+        self.l = l
+        self.b = b
+
+    def area(self):
+        print("Area =", self.l * self.b)
+
+r = Rectangle(5, 4)
+r.area()
+
+from abc import ABC, abstractmethod
+
+class BankAccount(ABC):
+
+    @abstractmethod
+    def interest(self):
+        pass
+
+class Savings(BankAccount):
+
+    def interest(self):
+        print("Savings Interest: 5%")
+
+class Current(BankAccount):
+
+    def interest(self):
+        print("Current Interest: 2%")
+
+s = Savings()
+c = Current()
+
+s.interest()
+c.interest()
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+
+    @abstractmethod
+    def stop(self):
+        pass
+
+class Car(Vehicle):
+
+    def start(self):
+        print("Car Started")
+
+    def stop(self):
+        print("Car Stopped")
+
+class Bike(Vehicle):
+
+    def start(self):
+        print("Bike Started")
+
+    def stop(self):
+        print("Bike Stopped")
+
+c = Car()
+b = Bike()
+
+c.start()
+c.stop()
+
+b.start()
+b.stop()
+
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+class CreditCard(Payment):
+
+    def pay(self, amount):
+        print(f"Paid {amount} using Credit Card")
+
+class UPI(Payment):
+
+    def pay(self, amount):
+        print(f"Paid {amount} using UPI")
+
+class PayPal(Payment):
+
+    def pay(self, amount):
+        print(f"Paid {amount} using PayPal")
+
+payments = [
+    CreditCard(),
+    UPI(),
+    PayPal()
+]
+
+for p in payments:
+    p.pay(1000)
+    

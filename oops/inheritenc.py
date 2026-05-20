@@ -184,3 +184,14 @@ d = Developer()
 e.salary()
 m.salary()
 d.salary()
+
+class Animal:
+
+    def sound(self):
+        print("Animals make sound")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.sound()
