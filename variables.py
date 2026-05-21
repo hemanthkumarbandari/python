@@ -118,6 +118,28 @@ x = 5
 def fun():
   x = 10
   print(x)
-  
+
 fun()
 print(x)
+
+a = [10, 20]
+b = a
+
+a.append(30)
+print(b)
+
+a = [1, 2]
+b = a
+
+print (a == b)
+print (a is b)
+
+a = [1, 2]
+b = a.copy()
+
+a.append(4)
+b.append(3)
+
+print(b)
+print(a)
+print(a is b)
