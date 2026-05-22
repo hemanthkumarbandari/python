@@ -143,3 +143,36 @@ b.append(3)
 print(b)
 print(a)
 print(a is b)
+
+print("hlo", end = ""); print("hi")
+
+def fun(x=[]):
+  x.append(1)
+  return x
+
+print(fun())
+print(fun())
+print(fun())
+
+import copy
+
+a = [[1,2], [3,4]]
+
+b = copy.deepcopy(a)
+
+a[0][0] = 100
+
+print(a)
+
+class Student:
+
+    school = "ABC School"
+
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Hemz")
+s2 = Student("Rahul")
+
+print(s1.school)
+print(s2.school)
