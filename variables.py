@@ -176,3 +176,20 @@ s2 = Student("Rahul")
 
 print(s1.school)
 print(s2.school)
+
+# Variables store references to objects
+
+a = [1, 2, 3]
+
+b = a   # b points to same list as a
+
+print("Before change:")
+print("a =", a)
+print("b =", b)
+
+# Change using b
+b.append(4)
+
+print("\nAfter change:")
+print("a =", a)
+print("b =", b)
