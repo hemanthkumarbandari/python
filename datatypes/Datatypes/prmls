@@ -1,0 +1,37 @@
+# Biggest confusion in Data Types:
+# Mutable vs Immutable Data Types
+
+# IMMUTABLE DATA TYPE (int)
+x = 10
+y = x
+
+print("Before changing x:")
+print("x =", x)
+print("y =", y)
+
+x = 20
+
+print("\nAfter changing x:")
+print("x =", x)
+print("y =", y)
+
+
+# MUTABLE DATA TYPE (list)
+a = [1, 2, 3]
+b = a
+
+print("\nBefore changing list:")
+print("a =", a)
+print("b =", b)
+
+b.append(4)
+
+print("\nAfter changing list:")
+print("a =", a)
+print("b =", b)
+
+
+# Checking memory location
+print("\nMemory Address:")
+print("id(a) =", id(a))
+print("id(b) =", id(b))
