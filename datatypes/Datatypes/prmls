@@ -35,3 +35,56 @@ print("b =", b)
 print("\nMemory Address:")
 print("id(a) =", id(a))
 print("id(b) =", id(b))
+
+# Biggest Data Type Problem:
+# Type Conversion and Type Errors
+
+# Integer
+age = 20
+
+# String
+marks = "95"
+
+# Float
+height = 5.9
+
+# Boolean
+is_student = True
+
+print("Original Data Types:")
+print(type(age))
+print(type(marks))
+print(type(height))
+print(type(is_student))
+
+
+# Type Conversion
+converted_marks = int(marks)
+
+total = age + converted_marks
+
+print("\nAfter Type Conversion:")
+print("Converted Marks =", converted_marks)
+print("Total =", total)
+
+
+# Common Beginner Mistake
+num1 = "10"
+num2 = "20"
+
+print("\nWithout Conversion:")
+print(num1 + num2)   # String concatenation
+
+
+# Correct Way
+print("\nWith Conversion:")
+print(int(num1) + int(num2))
+
+
+# Type Error Example
+# Uncomment below line to see error
+
+# print(age + marks)
+
+# Error:
+# TypeError: unsupported operand type(s)
