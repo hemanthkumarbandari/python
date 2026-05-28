@@ -88,3 +88,60 @@ print(int(num1) + int(num2))
 
 # Error:
 # TypeError: unsupported operand type(s)
+
+# Biggest Data Type Confusion:
+# Difference between List, Tuple, Set, and Dictionary
+
+# LIST → Ordered, Mutable, Allows Duplicates
+my_list = [10, 20, 20, 30]
+
+# TUPLE → Ordered, Immutable, Allows Duplicates
+my_tuple = (10, 20, 20, 30)
+
+# SET → Unordered, Mutable, No Duplicates
+my_set = {10, 20, 20, 30}
+
+# DICTIONARY → Key-Value Pair
+my_dict = {
+    "name": "Hemz",
+    "age": 20,
+    "course": "CSE"
+}
+
+print("LIST:")
+print(my_list)
+print(type(my_list))
+
+print("\nTUPLE:")
+print(my_tuple)
+print(type(my_tuple))
+
+print("\nSET:")
+print(my_set)
+print(type(my_set))
+
+print("\nDICTIONARY:")
+print(my_dict)
+print(type(my_dict))
+
+
+# Modifying List
+my_list.append(40)
+
+# Modifying Set
+my_set.add(50)
+
+# Accessing Dictionary Value
+print("\nStudent Name:", my_dict["name"])
+
+print("\nUpdated List:", my_list)
+print("Updated Set:", my_set)
+
+
+# Tuple cannot be changed
+# Uncomment below line to see error
+
+# my_tuple[0] = 100
+
+# Error:
+# TypeError: 'tuple' object does not support item assignment
