@@ -145,3 +145,50 @@ print("Updated Set:", my_set)
 
 # Error:
 # TypeError: 'tuple' object does not support item assignment
+
+# Integer
+age = 20
+
+# Float
+height = 5.9
+
+# String
+name = "Hemz"
+
+# Boolean
+is_student = True
+
+# List
+skills = ["Python", "HTML", "CSS"]
+
+# Tuple
+coordinates = (10, 20)
+
+# Set
+unique_numbers = {1, 2, 3, 4}
+
+# Dictionary
+student = {
+    "name": name,
+    "age": age,
+    "height": height
+}
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Student:", is_student)
+
+print("\nSkills:")
+for skill in skills:
+    print(skill)
+
+print("\nCoordinates:", coordinates)
+
+print("\nUnique Numbers:")
+for num in unique_numbers:
+    print(num)
+
+print("\nStudent Details:")
+for key, value in student.items():
+    print(key, ":", value)
