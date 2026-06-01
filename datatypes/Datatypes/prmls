@@ -220,3 +220,10 @@ for item in data:
 print("Integers:", ints)
 print("Strings:", strings)
 print("Floats:", floats)
+
+num = 10
+
+result = float(num)
+
+print(result)
+print(type(result))
