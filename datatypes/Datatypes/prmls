@@ -192,3 +192,13 @@ for num in unique_numbers:
 print("\nStudent Details:")
 for key, value in student.items():
     print(key, ":", value)
+
+a = 10
+b = 3.14
+c = "Python"
+d = True
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
