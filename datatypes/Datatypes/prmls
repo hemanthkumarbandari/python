@@ -227,3 +227,10 @@ result = float(num)
 
 print(result)
 print(type(result))
+
+data = {
+    "course": {
+        "name": "Python",
+        "duration": 6
+    }
+}
