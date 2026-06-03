@@ -241,3 +241,8 @@ result = float(num)
 
 print(result)
 print(type(result))
+
+colors = ("red", "green", "blue")
+
+print(colors)
+print(type(colors))
