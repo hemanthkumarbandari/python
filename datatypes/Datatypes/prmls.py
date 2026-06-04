@@ -12,3 +12,14 @@ print(type(male))
 
 dreams = ["bike", "car", "house"]
 print(type(dreams))
+
+nums = (10, 20, 30)
+print(type(nums))
+
+student = {
+    "Name" : "hemz",
+    "Roll" : 10
+}
+
+print(student)
+print(type(student))
