@@ -6,3 +6,9 @@ print(type(height))
 
 name = "hemz"
 print(type(name))
+
+male = True
+print(type(male))
+
+dreams = ["bike", "car", "house"]
+print(type(dreams))
