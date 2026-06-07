@@ -87,3 +87,11 @@ for item in data:
 print("int count;", ints)
 print("string count;", strings)
 print("flaot count;", floats)
+
+a = 10
+b = 5.5
+
+result = a + b
+
+print(result)
+print(type(result))
