@@ -262,3 +262,19 @@ class Calculator:
 # Usage
 calc = Calculator()
 print("Result:", calc.multiply(3, 4))
+
+# Class
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+
+# Object creation
+s1 = Student("Hemz", 20)
+
+# Calling method
+s1.display()

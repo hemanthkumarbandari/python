@@ -25,11 +25,12 @@ print(student)
 print(type(student))
 
 ### counting datatypes
-data = [10, "hemz", 6.1, "shahi", 21]
+data = [10, "hemz", 6.1, "shahi", 21, True]
 
 ints = 0
 strings = 0
 floats = 0
+Bools = 0
 
 for item in data:
     if type(item) == int:
@@ -38,10 +39,13 @@ for item in data:
         strings += 1
     if type(item) == float:
         floats += 1
+    if type(item) == bool:
+        Bools += 1
 
 print("int count;", ints)
 print("string count;", strings)
 print("flaot count;", floats)
+<<<<<<< HEAD
 
 age = 20
 print(type(age))
@@ -105,3 +109,6 @@ print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
+=======
+print("bool count;", Bools)
+>>>>>>> b5bab41 (addedfile)
