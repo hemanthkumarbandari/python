@@ -278,3 +278,26 @@ s1 = Student("Hemz", 20)
 
 # Calling method
 s1.display()
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Insufficient Balance")
+
+    def display_balance(self):
+        print(f"Balance: {self.balance}")
+
+
+acc = BankAccount("Hemz", 1000)
+acc.deposit(500)
+acc.withdraw(300)
+acc.display_balance()
