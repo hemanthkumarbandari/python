@@ -301,3 +301,26 @@ acc = BankAccount("Hemz", 1000)
 acc.deposit(500)
 acc.withdraw(300)
 acc.display_balance()
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def show_grade(self):
+        if self.marks >= 90:
+            grade = "A"
+        elif self.marks >= 75:
+            grade = "B"
+        elif self.marks >= 50:
+            grade = "C"
+        else:
+            grade = "Fail"
+
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+        print("Grade:", grade)
+
+# Object Creation
+s1 = Student("Hemz", 85)
+s1.show_grade()
