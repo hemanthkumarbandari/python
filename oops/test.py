@@ -324,3 +324,30 @@ class Student:
 # Object Creation
 s1 = Student("Hemz", 85)
 s1.show_grade()
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("Deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrawn:", amount)
+        else:
+            print("Insufficient Balance")
+
+    def display(self):
+        print("Account Holder:", self.name)
+        print("Balance:", self.balance)
+
+# Object Creation
+acc = BankAccount("Hemz", 5000)
+
+acc.deposit(1000)
+acc.withdraw(2000)
+acc.display()
