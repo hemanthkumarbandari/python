@@ -1,4 +1,4 @@
-def set_age(self, age):
+8def set_age(self, age):
     if age > 0:
         self.__age = age
 
@@ -351,3 +351,28 @@ acc = BankAccount("Hemz", 5000)
 acc.deposit(1000)
 acc.withdraw(2000)
 acc.display()
+
+class Book:
+    def __init__(self, title):
+        self.title = title
+        self.is_issued = False
+
+    def issue_book(self):
+        if not self.is_issued:
+            self.is_issued = True
+            print(f"{self.title} has been issued.")
+        else:
+            print(f"{self.title} is already issued.")
+
+    def return_book(self):
+        if self.is_issued:
+            self.is_issued = False
+            print(f"{self.title} has been returned.")
+        else:
+            print(f"{self.title} is already available.")
+
+# Object Creation
+book1 = Book("Python Basics")
+
+book1.issue_book()
+book1.return_book()
