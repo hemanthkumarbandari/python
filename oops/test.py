@@ -376,3 +376,32 @@ book1 = Book("Python Basics")
 
 book1.issue_book()
 book1.return_book()
+
+class Mobile:
+    def __init__(self, brand, battery):
+        self.brand = brand
+        self.battery = battery
+
+    def charge(self, percent):
+        self.battery += percent
+        if self.battery > 100:
+            self.battery = 100
+        print("Battery Charged")
+
+    def use(self, percent):
+        if self.battery >= percent:
+            self.battery -= percent
+            print("Phone Used")
+        else:
+            print("Low Battery")
+
+    def display(self):
+        print("Brand:", self.brand)
+        print("Battery:", self.battery, "%")
+
+# Object Creation
+m1 = Mobile("Samsung", 50)
+
+m1.charge(30)
+m1.use(20)
+m1.display()
