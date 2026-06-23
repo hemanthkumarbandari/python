@@ -405,3 +405,26 @@ m1 = Mobile("Samsung", 50)
 m1.charge(30)
 m1.use(20)
 m1.display()
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Not enough money!")
+
+    def show(self):
+        print(self.name, "has", self.balance, "rupees")
+
+# Example
+acc = BankAccount("Hemanth", 100)   # Start with 100
+acc.deposit(50)                     # Add 50 → total 150
+acc.withdraw(30)                    # Take 30 → total 120
+acc.show()                          # Show balance
