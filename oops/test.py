@@ -428,3 +428,14 @@ acc = BankAccount("Hemanth", 100)   # Start with 100
 acc.deposit(50)                     # Add 50 → total 150
 acc.withdraw(30)                    # Take 30 → total 120
 acc.show()                          # Show balance
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def display(self):
+        print("Car Brand:", self.brand)
+
+# Object Creation
+c1 = Car("Toyota")
+c1.display()
