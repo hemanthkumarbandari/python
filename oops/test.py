@@ -1,4 +1,4 @@
-8def set_age(self, age):
+def set_age(self, age):
     if age > 0:
         self.__age = age
 
@@ -439,3 +439,16 @@ class Car:
 # Object Creation
 c1 = Car("Toyota")
 c1.display()
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def display(self):
+        print("Employee Name:", self.name)
+        print("Salary:", self.salary)
+
+# Object Creation
+e1 = Employee("Rahul", 30000)
+e1.display()
