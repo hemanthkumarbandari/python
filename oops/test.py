@@ -452,3 +452,16 @@ class Employee:
 # Object Creation
 e1 = Employee("Rahul", 30000)
 e1.display()
+
+class Laptop:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def display(self):
+        print("Brand:", self.brand)
+        print("Price:", self.price)
+
+# Object Creation
+l1 = Laptop("HP", 55000)
+l1.display()
