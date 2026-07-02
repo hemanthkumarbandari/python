@@ -193,3 +193,19 @@ b.append(4)
 print("\nAfter change:")
 print("a =", a)
 print("b =", b)
+
+x = 5
+y = "jhon"
+print (x)
+print (y)
+
+s = "10"
+n = int(s)
+cnt = 5
+f = float(cnt)
+age = 25
+s2 = str(age)
+
+print(n)  
+print(f)  
+print(s2)
