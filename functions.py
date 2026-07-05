@@ -51,3 +51,12 @@ def is_prime(n):
     return True
 
 print(is_prime(17))
+
+def fibonacci(n):
+    a, b = 0, 1
+
+    for _ in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+fibonacci(8)
