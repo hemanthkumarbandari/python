@@ -60,3 +60,15 @@ def fibonacci(n):
         a, b = b, a + b
 
 fibonacci(8)
+
+def count_vowels(text):
+    count = 0
+    vowels = "aeiouAEIOU"
+
+    for ch in text:
+        if ch in vowels:
+            count += 1
+
+    return count
+
+print(count_vowels("Programming"))
