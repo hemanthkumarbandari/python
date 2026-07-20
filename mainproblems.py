@@ -23,3 +23,13 @@ for ch in s.lower():
         count += 1
 
 print("Number of vowels:", count)
+
+#Find Length of String (Without len())
+s = input("Enter a string: ")
+
+count = 0
+
+for ch in s:
+    count += 1
+
+print("Length:", count)
