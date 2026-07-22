@@ -1,4 +1,4 @@
-#Reverse a String
+"""#Reverse a String
 s = input("Enter a string: ")
 
 reverse = s[::-1]
@@ -47,13 +47,6 @@ for ch in s:
 
 print(freq)
 
-s1 = input("Enter first string: ")
-s2 = input("Enter second string: ")
-
-if sorted(s1) == sorted(s2):
-    print("Anagram")
-else:
-    print("Not Anagram")
 
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
@@ -62,3 +55,11 @@ if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
     print("Not Anagram")
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+if sorted(s1) == sorted(s2):
+    print("Anagram")
+else:
+    print("Not Anagram")"""
