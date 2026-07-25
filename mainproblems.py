@@ -1,4 +1,4 @@
-"""#Reverse a String
+7"""#Reverse a String
 s = input("Enter a string: ")
 
 reverse = s[::-1]
@@ -81,3 +81,11 @@ for ch in s:
         result += ch
 
 print("After removing duplicates:", result)
+
+s = input("Enter a sentence: ")
+
+words = s.split()
+
+reverse = words[::-1]
+
+print(" ".join(reverse))
