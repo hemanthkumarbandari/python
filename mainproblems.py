@@ -1,4 +1,4 @@
-7"""#Reverse a String
+"""#Reverse a String
 s = input("Enter a string: ")
 
 reverse = s[::-1]
@@ -88,4 +88,4 @@ words = s.split()
 
 reverse = words[::-1]
 
-print(" ".join(reverse))
+print(" ".join(reverse))"""
