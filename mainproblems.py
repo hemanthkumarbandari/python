@@ -89,3 +89,12 @@ words = s.split()
 reverse = words[::-1]
 
 print(" ".join(reverse))"""
+
+s = input("Enter a string: ")
+
+reverse = ""
+
+for ch in s:
+    reverse = ch + reverse
+
+print(reverse)
