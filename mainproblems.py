@@ -106,3 +106,7 @@ if s1 == s2:
     print("Strings are Equal")
 else:
     print("Strings are Not Equal")
+
+s = input("Enter a string: ")
+
+print("Uppercase:", s.upper())
