@@ -98,3 +98,11 @@ for ch in s:
     reverse = ch + reverse
 
 print(reverse)
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+if s1 == s2:
+    print("Strings are Equal")
+else:
+    print("Strings are Not Equal")
