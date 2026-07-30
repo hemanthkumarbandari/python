@@ -1,4 +1,4 @@
-"""#Reverse a String
+#Reverse a String
 s = input("Enter a string: ")
 
 reverse = s[::-1]
@@ -62,7 +62,7 @@ s2 = input("Enter second string: ")
 if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
-    print("Not Anagram")"""
+    print("Not Anagram")
 
 def palindrome(text):
     if text == text[::-1]:
@@ -88,7 +88,7 @@ words = s.split()
 
 reverse = words[::-1]
 
-print(" ".join(reverse))"""
+print(" ".join(reverse))
 
 s = input("Enter a string: ")
 
@@ -126,3 +126,13 @@ for ch in s:
 print("Letters:", letters)
 print("Digits:", digits)
 print("Special Characters:", special)
+
+s = input("Enter a string: ")
+
+result = ""
+
+for ch in s:
+    if ch != " ":
+        result += ch
+
+print("After removing spaces:", result)
