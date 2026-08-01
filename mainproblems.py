@@ -148,3 +148,17 @@ for word in words:
         largest = word
 
 print("Largest Word:", largest)
+
+s = input("Enter a string: ")
+
+flag = True
+
+for ch in s:
+    if ch < '0' or ch > '9':
+        flag = False
+        break
+
+if flag:
+    print("String contains only digits")
+else:
+    print("String does not contain only digits")
