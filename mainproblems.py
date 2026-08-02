@@ -108,6 +108,17 @@ else:
     print("Strings are Not Equal")
 
 s = input("Enter a string: ")
+ch = input("Enter the character to search: ")
+
+count = 0
+
+for i in s:
+    if i == ch:
+        count += 1
+
+print("Occurrences:", count)
+
+s = input("Enter a string: ")
 
 print("Uppercase:", s.upper())
 
