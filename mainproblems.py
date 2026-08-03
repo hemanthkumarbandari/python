@@ -1,3 +1,4 @@
+"""
 #Reverse a String
 s = input("Enter a string: ")
 
@@ -184,3 +185,7 @@ for i in s:
         count += 1
 
 print("Occurrences:", count)
+"""
+
+name = input("Name:")
+rec = 
