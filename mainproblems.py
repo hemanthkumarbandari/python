@@ -187,5 +187,11 @@ for i in s:
 print("Occurrences:", count)
 """
 
-name = input("Name:")
-rec = 
+s = input("Enter a string: ")
+
+reverse = ""
+
+for char in s:
+    reverse = char + reverse
+
+print("Reversed String:", reverse)
