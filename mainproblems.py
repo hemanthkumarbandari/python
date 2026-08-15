@@ -277,3 +277,15 @@ for word in words:
         longest = word
 
 print("Longest word:", longest)
+
+s = input("Enter a string: ")
+
+seen = ""
+
+for ch in s:
+    if ch in seen:
+        print("First repeated character:", ch)
+        break
+    seen += ch
+else:
+    print("No repeated character")
