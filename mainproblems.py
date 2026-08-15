@@ -289,3 +289,16 @@ for ch in s:
     seen += ch
 else:
     print("No repeated character")
+
+s = input("Enter a string: ")
+
+vowels = ""
+consonants = ""
+
+for ch in s:
+    if ch.lower() in "aeiou":
+        vowels += ch
+    else:
+        consonants += ch
+
+print("Result:", vowels + consonants)
