@@ -302,3 +302,17 @@ for ch in s:
         consonants += ch
 
 print("Result:", vowels + consonants)
+
+s = input("Enter a string: ")
+
+flag = True
+
+for ch in s:
+    if not ('a' <= ch <= 'z' or 'A' <= ch <= 'Z'):
+        flag = False
+        break
+
+if flag:
+    print("Only alphabets")
+else:
+    print("Contains other characters")
