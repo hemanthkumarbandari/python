@@ -329,3 +329,16 @@ for n in numbers:
         second = n
 
 print("Second largest:", second)
+
+n = int(input("Enter N: "))
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+expected = n * (n + 1) // 2
+
+actual = 0
+for num in numbers:
+    actual += num
+
+missing = expected - actual
+
+print("Missing number:", missing)
