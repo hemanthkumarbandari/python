@@ -201,9 +201,7 @@ reverse = ""
 for char in s:
     reverse = char + reverse
 
-<<<<<<< HEAD
 print ("Reversed String:", reverse)
-=======
 print("Reversed String:", reverse)
 
 s = input("Enter a string: ")
@@ -345,4 +343,3 @@ for num in numbers:
 missing = expected - actual
 
 print("Missing number:", missing)
->>>>>>> 4c2149e4e20840aad4d205552ff5f6cf50ae269c
