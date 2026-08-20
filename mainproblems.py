@@ -112,6 +112,13 @@ s = input("Enter a string: ")
 ch = input("Enter the character to search: ")
 
 count = 0
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+if len(s1) == len(s2) and s2 in s1 + s1:
+    print("Rotation")
+else:
+    print("Not Rotation")
 
 for i in s:
     if i == ch:
@@ -194,4 +201,148 @@ reverse = ""
 for char in s:
     reverse = char + reverse
 
+<<<<<<< HEAD
 print ("Reversed String:", reverse)
+=======
+print("Reversed String:", reverse)
+
+s = input("Enter a string: ")
+
+if len(s) > 1:
+    result = s[-1] + s[1:-1] + s[0]
+else:
+    result = s
+
+print("Result:", result)
+
+s = input("Enter a string: ")
+
+freq = {}
+
+for ch in s:
+    if ch in freq:
+        freq[ch] += 1
+    else:
+        freq[ch] = 1
+
+max_char = ""
+max_count = 0
+
+for ch in freq:
+    if freq[ch] > max_count:
+        max_count = freq[ch]
+        max_char = ch
+
+print("Most frequent character:", max_char)
+print("Count:", max_count)
+
+s = input("Enter a string: ")
+
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+first = second = 0
+first_char = second_char = ""
+
+for ch in freq:
+    if freq[ch] > first:
+        second = first
+        second_char = first_char
+        first = freq[ch]
+        first_char = ch
+    elif freq[ch] > second and freq[ch] != first:
+        second = freq[ch]
+        second_char = ch
+
+print("Second most frequent character:", second_char)
+print("Count:", second)
+
+s = input("Enter a string: ")
+
+result = ""
+
+for ch in s:
+    if ch not in result:
+        result += ch
+
+print("Result:", result)
+
+s = input("Enter a sentence: ")
+
+words = s.split()
+
+longest = ""
+
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+print("Longest word:", longest)
+
+s = input("Enter a string: ")
+
+seen = ""
+
+for ch in s:
+    if ch in seen:
+        print("First repeated character:", ch)
+        break
+    seen += ch
+else:
+    print("No repeated character")
+
+s = input("Enter a string: ")
+
+vowels = ""
+consonants = ""
+
+for ch in s:
+    if ch.lower() in "aeiou":
+        vowels += ch
+    else:
+        consonants += ch
+
+print("Result:", vowels + consonants)
+
+s = input("Enter a string: ")
+
+flag = True
+
+for ch in s:
+    if not ('a' <= ch <= 'z' or 'A' <= ch <= 'Z'):
+        flag = False
+        break
+
+if flag:
+    print("Only alphabets")
+else:
+    print("Contains other characters")
+
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+largest = second = float('-inf')
+
+for n in numbers:
+    if n > largest:
+        second = largest
+        largest = n
+    elif n > second and n != largest:
+        second = n
+
+print("Second largest:", second)
+
+n = int(input("Enter N: "))
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+expected = n * (n + 1) // 2
+
+actual = 0
+for num in numbers:
+    actual += num
+
+missing = expected - actual
+
+print("Missing number:", missing)
+>>>>>>> 4c2149e4e20840aad4d205552ff5f6cf50ae269c
