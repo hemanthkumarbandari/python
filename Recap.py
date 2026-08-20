@@ -1,3 +1,4 @@
+"""
 x = 5
 y = 25
 print(x, "suare is", end=" - ")
@@ -23,3 +24,13 @@ print(type(name))
 print(type(age))
 print(type(Salary))
 print(type(IsLead))
+
+num = input().split()
+print(num)
+print(type(num))
+"""
+
+a,b,c = map(int,input().split())
+print(a)
+lst = list(map(int,input().split()))
+print(lst)
