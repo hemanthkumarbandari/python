@@ -92,7 +92,7 @@ reverse = words[::-1]
 print(" ".join(reverse))
 
 s = input("Enter a string: ")
-
+    
 reverse = ""
 
 for ch in s:
@@ -194,4 +194,4 @@ reverse = ""
 for char in s:
     reverse = char + reverse
 
-print("Reversed String:", reverse)
+print ("Reversed String:", reverse)
