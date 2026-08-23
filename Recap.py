@@ -71,3 +71,45 @@ print(earningFrom2022, type(earningFrom2022))
 print(earningBefore2022, type(earningBefore2022))
 print(prop, type(prop))
 print(overHyped, type(overHyped))
+
+# String
+name = "Hemanth"
+
+# Integer
+age = 21
+
+# Float
+salary = 45000.50
+
+# Boolean
+isStudent = True
+
+# List
+skills = ["Python", "Java", "SQL"]
+
+# Tuple
+coordinates = (17.3850, 78.4867)
+
+# Set
+numbers = {10, 20, 30, 40}
+
+# Dictionary
+student = {
+    "name": "Hemanth",
+    "age": 21,
+    "course": "CSE"
+}
+
+# None
+result = None
+
+# Print values and their data types
+print(name, type(name))
+print(age, type(age))
+print(salary, type(salary))
+print(isStudent, type(isStudent))
+print(skills, type(skills))
+print(coordinates, type(coordinates))
+print(numbers, type(numbers))
+print(student, type(student))
+print(result, type(result))
