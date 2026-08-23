@@ -113,3 +113,33 @@ print(coordinates, type(coordinates))
 print(numbers, type(numbers))
 print(student, type(student))
 print(result, type(result))
+
+# Python Data Types Practice
+
+product_name = "Laptop"          # String
+price = 54999                    # Integer
+discount = 12.5                  # Float
+in_stock = True                  # Boolean
+
+colors = ["Black", "Silver", "White"]       # List
+dimensions = (15.6, 10.2, 0.7)              # Tuple
+available_sizes = {"S", "M", "L", "XL"}     # Set
+
+product = {
+    "name": product_name,
+    "price": price,
+    "discount": discount,
+    "in_stock": in_stock
+}                                          # Dictionary
+
+warranty = None                            # NoneType
+
+print(product_name, type(product_name))
+print(price, type(price))
+print(discount, type(discount))
+print(in_stock, type(in_stock))
+print(colors, type(colors))
+print(dimensions, type(dimensions))
+print(available_sizes, type(available_sizes))
+print(product, type(product))
+print(warranty, type(warranty))
