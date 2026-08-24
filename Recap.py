@@ -41,17 +41,19 @@ age = 21
 gender = "Male"
 weight = 60.17
 isTeacher = True
+
+#set - unique values
 fruitsILiked = {"apple", "banana", "orange"}
 
-# List
+# List - ordered values
 earningFrom2022 = [22, 23, 22, 25, 23, 56]
 
 # Fixed, repeat
-# Tuple
+# Tuple - fixed values
 earningBefore2022 = (22, 23, 24, 22, 29, 30)
 
 # Key value
-# Dictionary
+# Dictionary - key-value pairs
 prop = {
     "orange": 5,
     "onion": "7kg",
@@ -142,4 +144,4 @@ print(colors, type(colors))
 print(dimensions, type(dimensions))
 print(available_sizes, type(available_sizes))
 print(product, type(product))
-print(warranty, type(warranty))
+print(warranty, type(warranty)) 
