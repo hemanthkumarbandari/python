@@ -145,3 +145,56 @@ print(dimensions, type(dimensions))
 print(available_sizes, type(available_sizes))
 print(product, type(product))
 print(warranty, type(warranty)) 
+
+# String
+name = input("Enter your name: ")
+
+# Integer
+age = int(input("Enter your age: "))
+
+# Float
+salary = float(input("Enter your salary: "))
+
+# Boolean
+isWorking = input("Are you working? (yes/no): ") == "yes"
+
+# List
+subjects = ["Python", "Java", "SQL"]
+
+# Tuple
+marks = (85, 90, 78)
+
+# Set
+languages = {"Python", "Java", "Python"}
+
+# Dictionary
+person = {
+    "name": name,
+    "age": age,
+    "salary": salary
+}
+
+# None
+extra = None
+
+print("\n--- Details ---")
+print("Name:", name)
+print("Age:", age)
+print("Salary:", salary)
+print("Working:", isWorking)
+print("Subjects:", subjects)
+print("Marks:", marks)
+print("Languages:", languages)
+print("Person:", person)
+print("Extra:", extra)
+
+print("\n--- Data Types ---")
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(isWorking))
+print(type(subjects))
+print(type(marks))
+print(type(languages))
+print(type(person))
+print(type(extra))
