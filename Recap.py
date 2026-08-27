@@ -35,6 +35,7 @@ lst = list(map(int,input().split()))
 print(lst) 
 
 """
+"""
 
 name = "Hemanth"
 age = 21
@@ -198,3 +199,5 @@ print(type(marks))
 print(type(languages))
 print(type(person))
 print(type(extra))
+
+"""
