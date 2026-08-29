@@ -201,3 +201,32 @@ print(type(person))
 print(type(extra))
 
 """
+# Student Result Program
+
+name = "Hemanth"
+marks = [85, 72, 90, 68, 88]
+
+total = sum(marks)
+average = total / len(marks)
+
+passed = average >= 40
+
+student = {
+    "name": name,
+    "total": total,
+    "average": average,
+    "passed": passed
+}
+
+print("Student:", student["name"])
+print("Total:", student["total"])
+print("Average:", student["average"])
+print("Passed:", student["passed"])
+
+print("\nData Types:")
+print(type(name))
+print(type(marks))
+print(type(total))
+print(type(average))
+print(type(passed))
+print(type(student))
