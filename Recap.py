@@ -155,3 +155,15 @@ firstname = "Hemz"
 secondname = "Here"
 name = firstname + " " + secondname
 print(name)
+
+#list
+lst = [1,2,3,4]
+lst.append(5)
+print(lst)
+lst.pop(1)
+print(lst)
+print(lst[3])
+lst.insert(1,2)
+print(lst)
+lst[0]= 7
+print(lst)
