@@ -167,3 +167,7 @@ lst.insert(1,2)
 print(lst)
 lst[0]= 7
 print(lst)
+
+#tuple
+num = (1,2,3,4,5)
+print(num[1])
