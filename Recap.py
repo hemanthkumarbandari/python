@@ -171,3 +171,33 @@ print(lst)
 #tuple
 num = (1,2,3,4,5)
 print(num[1])
+
+# String
+firstname = "Hemz"
+secondname = "Here"
+
+name = firstname + " " + secondname
+
+print(name)
+
+# List
+lst = [1, 2, 3, 4]   # [] creates list
+
+lst.append(5)       # () calls append
+print(lst)
+
+lst.pop(1)           # () calls pop, 1 is the argument
+print(lst)
+
+print(lst[3])        # [] indexes the list
+
+lst.insert(1, 2)    # () calls insert
+print(lst)
+
+lst[0] = 7          # [] indexes and changes the item
+print(lst)
+
+# Tuple
+num = (1, 2, 3, 4, 5)  # () creates tuple
+
+print(num[1])           # [] indexes the tuple
