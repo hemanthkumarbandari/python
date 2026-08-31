@@ -36,6 +36,7 @@ print(lst)
 
 """
 """
+"""
 
 #DataTypes
 
@@ -148,18 +149,3 @@ print(dimensions, type(dimensions))
 print(available_sizes, type(available_sizes))
 print(product, type(product))
 print(warranty, type(warranty)) 
-
-"""
-
-# Operations in DataTypes
-
-firstname = "Hemanth"
-secondname = "Kumar"
-
-name = firstname+""+ secondname
-print(name)
-
-firstname = "Hemz"
-secondname = "Here"
-name = firstname + " " + secondname
-print(name)
