@@ -149,3 +149,9 @@ print(dimensions, type(dimensions))
 print(available_sizes, type(available_sizes))
 print(product, type(product))
 print(warranty, type(warranty)) 
+
+#string
+firstname = "Hemz"
+secondname = "Here"
+name = firstname + " " + secondname
+print(name)
