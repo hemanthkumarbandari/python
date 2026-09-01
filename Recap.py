@@ -215,3 +215,16 @@ dic["place"] = "Miyapur"
 del dic["Age"]
 print(dic)
 print(dic["Gender"])
+
+st = set()
+d = {}
+
+st = {1, 2, 3}
+d = {"name":12}
+
+name = ""
+age = 0
+lst = []
+tup = {}
+d = {}
+st = set() 
