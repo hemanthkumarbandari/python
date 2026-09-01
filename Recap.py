@@ -210,4 +210,8 @@ dic = {
     "Age": 20,
     "Gender": "Male"
     }
+
+dic["place"] = "Miyapur"
+del dic["Age"]
 print(dic)
+print(dic["Gender"])
