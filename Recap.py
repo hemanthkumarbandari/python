@@ -228,3 +228,8 @@ lst = []
 tup = {}
 d = {}
 st = set() 
+
+st = {1, 2, 3, 4, 5}
+st.add(6)
+st.remove(3)
+print(st)
