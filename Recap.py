@@ -234,13 +234,28 @@ st.add(6)
 st.remove(3)
 print(st)
 
+#immutable
 x = 5
 print(id(x))
 X= 12
-print(id(x))
+print(id(x)) #same id if same value, diff id if dif val.
 
 x = 5
 y = 5
 y = 7
 print(id(x))
 print(id(y))
+
+weight = 52.39
+print(id(weight))
+weight = 55.99
+print(id(weight))
+
+a = True
+b = True
+print(id(a))
+print(id(b))
+a = False
+b = False
+print(id(a))
+print(id(b))
