@@ -233,3 +233,18 @@ st = {1, 2, 3, 4, 5}
 st.add(6)
 st.remove(3)
 print(st)
+
+my_list = [10, 20, 30]
+
+print("Before:", my_list)
+
+my_list[0] = 100
+
+print("After:", my_list)
+
+
+my_tuple = (10, 20, 30)
+
+print("Before:", my_tuple)
+
+print("After:", my_tuple)
