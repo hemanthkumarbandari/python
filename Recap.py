@@ -259,3 +259,8 @@ a = False
 b = False
 print(id(a))
 print(id(b))
+
+name = "Hemant"
+print(name[0])
+name[0] = "R"
+print(name) #error, immutable
