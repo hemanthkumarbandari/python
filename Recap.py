@@ -233,3 +233,14 @@ st = {1, 2, 3, 4, 5}
 st.add(6)
 st.remove(3)
 print(st)
+
+x = 5
+print(id(x))
+X= 12
+print(id(x))
+
+x = 5
+y = 5
+y = 7
+print(id(x))
+print(id(y))
