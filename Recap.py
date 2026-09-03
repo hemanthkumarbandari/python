@@ -264,6 +264,11 @@ name = "Hemant"
 print(name[0])
 
 #time and space
-arr = [10, 20, 30, 40, 50]
+arr = [10, 20, 30, 40, 50] #O(1)
 
 print(arr[2])
+
+arr = [1, 2, 3, 4, 5]
+
+for x in arr:
+    print(x)
