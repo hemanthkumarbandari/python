@@ -284,3 +284,12 @@ print(res1,type(res1))
 
 lst = [2,3,4,5]
 print(lst,type(lst))
+
+res2 = tuple(lst)
+print (res2,type(res2))
+
+res3 = set(lst)
+print(res3,type(res3))
+
+colur = ["a", "b", "c"]
+qty = [3,4,5]
