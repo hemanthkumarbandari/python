@@ -307,7 +307,12 @@ print(name[0:])
 print(name[-1::-1])
 
 lst = [2,3,4,5,12]
+
 print(lst[0])
 print(lst[2])
 print(lst[0:2])
 print(lst[0::2])
+
+print(lst[-1::-1])
+print(lst[-1:0:-1])
+#: - start : end before, :: start :: end step
