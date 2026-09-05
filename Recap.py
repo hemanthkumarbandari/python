@@ -320,3 +320,8 @@ print(lst[-1:0:-1])
 statement = "I will work heard and chase my DREAMS"
 lst = statement.split()
 print(lst)
+print(type(lst))
+
+fruits = ["orange", "mango", "grapes", "water melon"]
+res = " ".join(fruits)
+print(res)
