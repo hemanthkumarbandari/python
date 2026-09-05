@@ -316,3 +316,7 @@ print(lst[0::2])
 print(lst[-1::-1])
 print(lst[-1:0:-1])
 #: - start : end before, :: start :: end step
+
+statement = "I will work heard and chase my DREAMS"
+lst = statement.split()
+print(lst)
