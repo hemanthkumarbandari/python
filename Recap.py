@@ -338,3 +338,40 @@ elif mark >= 33:
     print("D")
 else:
     print("FAIL")
+
+age = 21
+marks = 85
+is_student = True
+
+# if
+if age >= 18:
+    print("You are an adult")
+
+# if-else
+if is_student:
+    print("You are a student")
+else:
+    print("You are not a student")
+
+# if-elif-else
+if marks >= 90:
+    print("Grade A+")
+elif marks >= 75:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Grade C")
+
+# nested if
+if age >= 18:
+    if marks >= 50:
+        print("Eligible")
+    else:
+        print("Not eligible")
+else:
+    print("Underage")
+
+# logical operators
+if age >= 18 and marks >= 50:
+    print("Passed and eligible")
