@@ -375,3 +375,40 @@ else:
 # logical operators
 if age >= 18 and marks >= 50:
     print("Passed and eligible")
+
+numbers = [10, 20, 30, 40, 50]
+
+print("Numbers using for loop:")
+
+for num in numbers:
+    print(num)
+
+print("\nEven numbers:")
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
+
+print("\nCounting using while loop:")
+
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+
+print("\nMultiplication table:")
+
+num = 5
+i = 1
+
+while i <= 10:
+    print(num, "x", i, "=", num * i)
+    i += 1
+
+print("\nSquares:")
+
+for i in range(1, 6):
+    print(i, "square =", i * i)
+
+print("\nProgram completed!")
