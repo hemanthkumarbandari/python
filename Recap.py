@@ -413,6 +413,7 @@ for i in range(1, 6):
 
 print("\nProgram completed!")
 
+
 numbers = [10, 20, 30, 40, 50]
 
 total = 0
@@ -425,4 +426,18 @@ print("Sum:", total)
 i = 1
 while i <= 5:
     print("Number:", i)
+    i += 1
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "Even")
+    else:
+        print(num, "Odd")
+
+i = 1
+
+while i <= 6:
+    print("Count:", i)
     i += 1
