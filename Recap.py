@@ -412,3 +412,17 @@ for i in range(1, 6):
     print(i, "square =", i * i)
 
 print("\nProgram completed!")
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for num in numbers:
+    total += num
+
+print("Sum:", total)
+
+i = 1
+while i <= 5:
+    print("Number:", i)
+    i += 1
