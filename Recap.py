@@ -442,3 +442,34 @@ while i <= 6:
     print("Count:", i)
     i += 1
 
+numbers = [10, 15, 20, 25, 30]
+
+print("Numbers:")
+
+for num in numbers:
+    print(num)
+
+print("\nEven Numbers:")
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
+
+print("\nCounting:")
+
+i = 1
+
+while i <= 5:
+    print("Count:", i)
+    i += 1
+
+print("\nSquares:")
+
+i = 0
+
+while i < len(numbers):
+    print(numbers[i], "=", numbers[i] * numbers[i])
+    i += 1
+
+print("\nProgram Completed!")
+
