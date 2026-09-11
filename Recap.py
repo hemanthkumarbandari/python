@@ -517,3 +517,26 @@ for price in prices:
 
 print("\nTotal =", total)
 
+numbers = [12, 7, 25, 40, 9]
+
+print("Numbers:")
+
+for num in numbers:
+    print(num)
+
+
+print("\nEven and Odd:")
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "Even")
+    else:
+        print(num, "Odd")
+
+print("\nCounting:")
+
+i = 0
+
+while i < len(numbers):
+    print("Number", i + 1, "is", numbers[i])
+    i += 1
