@@ -495,3 +495,25 @@ while i <= len(marks):
     print("Student", i)
     i += 1
 
+items = ["Pen", "Book", "Bag", "Pencil"]
+prices = [10, 50, 500, 20]
+
+print("Items:")
+
+for item in items:
+    print(item)
+
+print("\nPrices:")
+
+i = 0
+while i < len(prices):
+    print(items[i], "=", prices[i])
+    i += 1
+
+total = 0
+
+for price in prices:
+    total += price
+
+print("\nTotal =", total)
+
