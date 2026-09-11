@@ -473,3 +473,25 @@ while i < len(numbers):
 
 print("\nProgram Completed!")
 
+marks = [45, 67, 82, 35, 90]
+
+print("Marks:")
+
+for mark in marks:
+    print(mark)
+
+print("\nResults:")
+
+for mark in marks:
+    if mark >= 40:
+        print(mark, "Pass")
+    else:
+        print(mark, "Fail")
+
+print("\nStudent Count:")
+
+i = 1
+while i <= len(marks):
+    print("Student", i)
+    i += 1
+
