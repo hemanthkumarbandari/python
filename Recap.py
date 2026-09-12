@@ -540,3 +540,24 @@ i = 0
 while i < len(numbers):
     print("Number", i + 1, "is", numbers[i])
     i += 1
+
+password = "python123"
+
+attempts = 3
+
+for i in range(1, attempts + 1):
+    print("Attempt", i)
+
+    if i == 2:
+        print("Keep trying!")
+
+i = 1
+
+while i <= attempts:
+    print("Checking password...")
+    i += 1
+
+if password == "python123":
+    print("Password is correct")
+else:
+    print("Wrong password")
