@@ -546,3 +546,8 @@
 def sum(a, b, c):
     print(a+b+c)
 sum(5,6,7)
+
+def lst(*a):
+    print(a)
+    print(sum)
+lst(1,2,3)
