@@ -551,3 +551,12 @@ def lst(*a):
     print(a)
     print(sum)
 lst(1,2,3)
+
+def sum(x):
+    print(id(x))
+    x = 15
+    print(id(x))
+
+x = 12
+print(id(x))
+sum(x)
