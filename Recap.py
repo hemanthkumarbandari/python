@@ -560,3 +560,11 @@ def sum(x):
 x = 12
 print(id(x))
 sum(x)
+
+def multiply(*a):
+    result = 1
+    for x in a:
+        result = result * x
+    print(result)
+
+multiply(2, 3, 4)
