@@ -568,3 +568,13 @@ def multiply(*a):
     print(result)
 
 multiply(2, 3, 4)
+
+def student_marks(*a):
+    total = sum(a)
+    average = total / len(a)
+
+    print("Marks:", a)
+    print("Total:", total)
+    print("Average:", average)
+
+student_marks(80, 75, 90, 85, 70)
