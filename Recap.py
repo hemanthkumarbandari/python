@@ -578,3 +578,20 @@ def student_marks(*a):
     print("Average:", average)
 
 student_marks(80, 75, 90, 85, 70)
+
+def calculate_bill(*prices):
+    total = sum(prices)
+
+    if total >= 1000:
+        discount = total * 0.10
+    else:
+        discount = 0
+
+    final_price = total - discount
+
+    print("Prices:", prices)
+    print("Total:", total)
+    print("Discount:", discount)
+    print("Final Price:", final_price)
+
+calculate_bill(250, 300, 150, 400)
