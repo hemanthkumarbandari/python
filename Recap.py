@@ -595,3 +595,21 @@ def calculate_bill(*prices):
     print("Final Price:", final_price)
 
 calculate_bill(250, 300, 150, 400)
+
+
+def check_numbers(*a):
+    even = 0
+    odd = 0
+
+    for num in a:
+        if num % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+
+    print("Numbers:", a)
+    print("Even numbers:", even)
+    print("Odd numbers:", odd)
+
+
+check_numbers(10, 15, 20, 7, 8, 13, 30)
