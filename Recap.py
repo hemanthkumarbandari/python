@@ -760,3 +760,11 @@ def sum(lst):
         print(sm)
 lst = [1,2,3,4]
 sum(lst)
+
+def sum(lst):
+    sm = 0
+    for num in lst:
+        sm = num+sm
+    print(sm)
+lst = [1,2,3,4]
+sum(lst)
