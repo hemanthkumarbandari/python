@@ -761,14 +761,23 @@
 #lst = [1,2,3,4]
 #sum(lst)
 
-def sum(lst):
-    sm = 0
-    for num in lst:
-        sm = num+sm
-    print("summation")
-    return sm
-    
-lst = [1,2,3,4]
-print("summationnn")
-print(sum(lst))
+#def sum(lst):
+#    sm = 0
+#    for num in lst:
+#        sm = num+sm
+#    print("summation")
+#    return sm
+#    
+#lst = [1,2,3,4]
+#print("summationnn")
+#print(sum(lst))
+
+def update(lst):
+    n=len(lst)
+    for i in range(n):
+        lst[i]= lst[i] + 1
+
+lst = [1, 2, 3]
+update(lst)
+print(lst)
 
