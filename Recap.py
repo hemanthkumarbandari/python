@@ -750,21 +750,25 @@
 #print(id(x))
 #sum(x)
 
-def sum(lst):
-    print(lst)
-    for num in lst:
-        print(num)
-    sm = 0
-    for num in lst:
-        sm = num+sm
-        print(sm)
-lst = [1,2,3,4]
-sum(lst)
+#def sum(lst):
+#    print(lst)
+#    for num in lst:
+#        print(num)
+#    sm = 0
+#    for num in lst:
+#        sm = num+sm
+#        print(sm)
+#lst = [1,2,3,4]
+#sum(lst)
 
 def sum(lst):
     sm = 0
     for num in lst:
         sm = num+sm
-    print(sm)
+    print("summation")
+    return sm
+    
 lst = [1,2,3,4]
-sum(lst)
+print("summationnn")
+print(sum(lst))
+
