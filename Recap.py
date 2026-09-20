@@ -799,3 +799,4 @@ def calculate_salary(*salary):
 
 calculate_salary(15000, 12000, 18000, 10000)
 
+...
