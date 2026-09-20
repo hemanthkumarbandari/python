@@ -781,3 +781,21 @@ lst = [1, 2, 3]
 update(lst)
 print(lst)
 
+def calculate_salary(*salary):
+    total = sum(salary)
+
+    if total >= 50000:
+        bonus = 5000
+    else:
+        bonus = 2000
+
+    final_salary = total + bonus
+
+    print("Salaries:", salary)
+    print("Total:", total)
+    print("Bonus:", bonus)
+    print("Final Salary:", final_salary)
+
+
+calculate_salary(15000, 12000, 18000, 10000)
+
