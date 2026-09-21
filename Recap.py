@@ -781,6 +781,22 @@ lst = [1, 2, 3]
 update(lst)
 print(lst)
 
+def check_numbers(*a):
+    positive = 0
+    negative = 0
+
+    for num in a:
+        if num >= 0:
+            positive += 1
+        else:
+            negative += 1
+
+    print("Numbers:", a)
+    print("Positive:", positive)
+    print("Negative:", negative)
+
+check_numbers(10, -5, 20, -8, 15, -2)
+
 def calculate_salary(*salary):
     total = sum(salary)
 
@@ -800,3 +816,19 @@ def calculate_salary(*salary):
 calculate_salary(15000, 12000, 18000, 10000)
 
 ...
+
+def check_numbers(*a):
+    positive = 0
+    negative = 0
+
+    for num in a:
+        if num >= 0:
+            positive += 1
+        else:
+            negative += 1
+
+    print("Numbers:", a)
+    print("Positive:", positive)
+    print("Negative:", negative)
+
+check_numbers(10, -5, 20, -8, 15, -2)
