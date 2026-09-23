@@ -800,3 +800,13 @@ def calculate_salary(*salary):
 calculate_salary(15000, 12000, 18000, 10000)
 
 ...
+
+def marks(*a):
+    total = sum(a)
+    average = total / len(a)
+
+    print("Marks:", a)
+    print("Total:", total)
+    print("Average:", average)
+
+marks(75, 80, 65, 90, 85)
