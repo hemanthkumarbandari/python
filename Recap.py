@@ -810,3 +810,20 @@ def marks(*a):
     print("Average:", average)
 
 marks(75, 80, 65, 90, 85)
+
+def calculate_expenses(*a):
+    total = 0
+
+    for expense in a:
+        total = total + expense
+
+    if total > 5000:
+        print("High expenses")
+    else:
+        print("Expenses are under control")
+
+    print("Expenses:", a)
+    print("Total:", total)
+
+
+calculate_expenses(500, 1200, 800, 1500, 700)
