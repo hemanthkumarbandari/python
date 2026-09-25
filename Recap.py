@@ -817,6 +817,7 @@ calculate_salary(15000, 12000, 18000, 10000)
 
 ...
 
+<<<<<<< HEAD
 def check_numbers(*a):
     positive = 0
     negative = 0
@@ -832,3 +833,31 @@ def check_numbers(*a):
     print("Negative:", negative)
 
 check_numbers(10, -5, 20, -8, 15, -2)
+=======
+def marks(*a):
+    total = sum(a)
+    average = total / len(a)
+
+    print("Marks:", a)
+    print("Total:", total)
+    print("Average:", average)
+
+marks(75, 80, 65, 90, 85)
+
+def calculate_expenses(*a):
+    total = 0
+
+    for expense in a:
+        total = total + expense
+
+    if total > 5000:
+        print("High expenses")
+    else:
+        print("Expenses are under control")
+
+    print("Expenses:", a)
+    print("Total:", total)
+
+
+calculate_expenses(500, 1200, 800, 1500, 700)
+>>>>>>> ef20a7f276e81d53e4cf41db9773bcf55019f482
