@@ -861,3 +861,12 @@ def calculate_expenses(*a):
 
 calculate_expenses(500, 1200, 800, 1500, 700)
 >>>>>>> ef20a7f276e81d53e4cf41db9773bcf55019f482
+
+n = 10
+total = 0
+
+for i in range(1, n + 1):
+    total = total + i
+    print("Number:", i, "Total:", total)
+
+print("Final total:", total)
