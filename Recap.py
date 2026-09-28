@@ -870,3 +870,16 @@ for i in range(1, n + 1):
     print("Number:", i, "Total:", total)
 
 print("Final total:", total)
+
+n = 5
+
+for i in range(1, n + 1):
+    print("Row", i, ":", end=" ")
+
+    for j in range(1, i + 1):
+        if j % 2 == 0:
+            print(j * 2, end=" ")
+        else:
+            print(j, end=" ")
+
+    print()
