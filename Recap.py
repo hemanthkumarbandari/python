@@ -814,10 +814,8 @@ def calculate_salary(*salary):
 
 
 calculate_salary(15000, 12000, 18000, 10000)
+ 
 
-...
-
-<<<<<<< HEAD
 def check_numbers(*a):
     positive = 0
     negative = 0
@@ -833,7 +831,7 @@ def check_numbers(*a):
     print("Negative:", negative)
 
 check_numbers(10, -5, 20, -8, 15, -2)
-=======
+
 def marks(*a):
     total = sum(a)
     average = total / len(a)
@@ -860,7 +858,6 @@ def calculate_expenses(*a):
 
 
 calculate_expenses(500, 1200, 800, 1500, 700)
->>>>>>> ef20a7f276e81d53e4cf41db9773bcf55019f482
 
 n = 10
 total = 0
@@ -882,4 +879,11 @@ for i in range(1, n + 1):
         else:
             print(j, end=" ")
 
+    print()
+
+n = 5
+
+for i in range (n):
+    for j in range(n-1):
+        print("|", end="")
     print()
