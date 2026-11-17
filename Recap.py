@@ -1187,3 +1187,19 @@ for i in range(n):
         else:
             print(" ", end=" ")
     print()
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Student Name:", self.name)
+        print("Student Age:", self.age)
+
+
+# Creating object
+s1 = Student("Hemanth", 21)
+
+# Calling method
+s1.display()
