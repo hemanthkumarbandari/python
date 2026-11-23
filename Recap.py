@@ -1234,3 +1234,15 @@ for i in range(n - 1, 0, -1):
         else:
             print(" ", end=" ")
     print()
+
+#OOPS
+
+class Student:
+    def display(self):
+        print("Hello, I am a student")
+
+# Creating an object
+s1 = Student()
+
+# Calling method
+s1.display()
