@@ -1246,3 +1246,24 @@ s1 = Student()
 
 # Calling method
 s1.display()
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print("Student Name:", self.name)
+        print("Marks:", self.marks)
+
+    def result(self):
+        if self.marks >= 40:
+            print("Result: PASS 🎉")
+        else:
+            print("Result: FAIL")
+
+s1 = Student("Hemanth", 85)
+
+s1.display()
+s1.result()
