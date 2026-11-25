@@ -1267,3 +1267,31 @@ s1 = Student("Hemanth", 85)
 
 s1.display()
 s1.result()
+
+
+class Student:
+    college = "Malla Reddy University"
+
+    def __init__(self, name, roll_no, marks):
+        self.name = name
+        self.roll_no = roll_no
+        self.marks = marks
+
+    def display(self):
+        print("\n--- Student Details ---")
+        print("Name:", self.name)
+        print("Roll No:", self.roll_no)
+        print("Marks:", self.marks)
+        print("College:", Student.college)
+
+    def result(self):
+        if self.marks >= 40:
+            print("Result: Pass")
+        else:
+            print("Result: Fail")
+
+
+s1 = Student("Hemanth", 101, 85)
+
+s1.display()
+s1.result()
