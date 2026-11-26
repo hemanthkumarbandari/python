@@ -1300,6 +1300,18 @@ n = 5
 
 for i in range (2*n+1):
     print (i)
+
+n = 5
+
+for i in range (2*n+1):
+    print (i)
+    for j in range (n):
+        print(i, end="")
+    print()
+
+n = 5
+
+for i in range (2*n):
     for j in range (n):
         print(i, end="")
     print()
