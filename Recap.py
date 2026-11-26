@@ -1298,5 +1298,8 @@
 
 n = 5
 
-for i in range (2*n-1):
+for i in range (2*n+1):
     print (i)
+    for j in range (n):
+        print(i, end="")
+    print()
