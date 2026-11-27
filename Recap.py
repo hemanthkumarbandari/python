@@ -1234,91 +1234,44 @@
 #        else:
 #            print(" ", end=" ")
 #    print()
-#
-##OOPS
-#
-#class Student:
-#    def display(self):
-#        print("Hello, I am a student")
-#
-## Creating an object
-#s1 = Student()
-#
-## Calling method
-#s1.display()
-#
-#
-#class Student:
-#    def __init__(self, name, marks):
-#        self.name = name
-#        self.marks = marks
-#
-#    def display(self):
-#        print("Student Name:", self.name)
-#        print("Marks:", self.marks)
-#
-#    def result(self):
-#        if self.marks >= 40:
-#            print("Result: PASS 🎉")
-#        else:
-#            print("Result: FAIL")
-#
-#s1 = Student("Hemanth", 85)
-#
-#s1.display()
-#s1.result()
-#
-#
-#class Student:
-#    college = "Malla Reddy University"
-#
-#    def __init__(self, name, roll_no, marks):
-#        self.name = name
-#        self.roll_no = roll_no
-#        self.marks = marks
-#
-#    def display(self):
-#        print("\n--- Student Details ---")
-#        print("Name:", self.name)
-#        print("Roll No:", self.roll_no)
-#        print("Marks:", self.marks)
-#        print("College:", Student.college)
-#
-#    def result(self):
-#        if self.marks >= 40:
-#            print("Result: Pass")
-#        else:
-#            print("Result: Fail")
-#
-#
-#s1 = Student("Hemanth", 101, 85)
-#
-#s1.display()
-#s1.result()
 
-n = 5
-
-for i in range (2*n+1):
-    print (i)
-
-n = 5
-
-for i in range (2*n+1):
-    print (i)
-    for j in range (n):
-        print(i, end="")
-    print()
-
-n = 5
-
-for i in range (2*n):
-    for j in range (n):
-        print(i, end="")
-    print()
+#n = 5
+#
+#for i in range (2*n+1):
+#    print (i)
+#
+#n = 5
+#
+#for i in range (2*n+1):
+#    print (i)
+#    for j in range (n):
+#        print(i, end="")
+#    print()
+#
+#n = 5
+#
+#for i in range (2*n):
+#    for j in range (n):
+#        print(i, end="")
+#    print()
+#
+#n = 5
+#
+#for i in range (n):
+#    for j in range (n):
+#        print("*", end="")
+#    print()
 
 n = 5
 
 for i in range (n):
     for j in range (n):
+        print("*", end="")
+    print()
+
+n = 5
+
+for i in range (n):
+    for j in range (n*2):
         print("*", end="")
     print()
