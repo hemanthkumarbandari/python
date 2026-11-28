@@ -1275,3 +1275,20 @@ for i in range (n):
     for j in range (n*2):
         print("*", end="")
     print()
+
+
+class Car:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+    def display(self):
+        print("Car Brand:", self.brand)
+        print("Car Color:", self.color)
+
+
+# Creating object
+car1 = Car("BMW", "Black")
+
+# Calling method
+car1.display()
